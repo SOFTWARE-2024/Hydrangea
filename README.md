@@ -28,7 +28,10 @@ For enhanced availability and reusability, we offer an organized defect library 
 Below are details of what is included in each part:
 
 ### Application benchmark
-A suite of 100 non-trivial projects which tightly integrates LLMs and vector databases in their workflow, containing
+A suite of 100 non-trivial projects which tightly integrates LLMs and vector databases in their workflow.
+
+We have uploaded `application.csv`, it contains:
+
    1. software project name
    2. GitHub link and commit ID
    3. classification
@@ -37,7 +40,7 @@ A suite of 100 non-trivial projects which tightly integrates LLMs and vector dat
 ### Hydrangea Defect Library
 The result of TABLE Ⅱ in our paper can be reproduced by this organized defect library. 
 
-In the uploaded `application.csv`, we have documented different cases for the same defect type, as defects can manifest in various ways. For each distinct case of the same defect, we have separated them with a blank line and labeled them as case 1, case 2, and so on, according to the specific circumstances.
+In the uploaded `defect.csv`, we have documented different cases for the same defect type, as defects can manifest in various ways. For each distinct case of the same defect, we have separated them with a blank line and labeled them as case 1, case 2, and so on, according to the specific circumstances.
 
 It contains:
 
