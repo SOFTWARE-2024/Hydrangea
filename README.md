@@ -1,13 +1,25 @@
-# A Replication of Are LLMs Correctly Integrated into Software Systems?
+# README
 <div style="overflow: auto;">
   <img src="./Hydrangea.png" alt="Alt text" width="300" style="float: right; margin-left: 10px;">
   <p>
-    This artifact accompanies our paper, "Are LLMs Correctly Integrated into Software Systems?" It contains metadata from 100 non-trivial open-source projects that incorporate LLMs, along with a comprehensive defect library detailing issues encountered when integrating LLMs and RAG into software systems. We hope this artifact can aid the development of LLM-enabled software and motivate future research.
+  Hydrangea is a defect library for LLM-enabled software. Hydrangea has 4 main petals, each corresponding to one of the major components where defects often arise: LLM agent, Vector database, Software component, and System.
   </p>
 </div>
 
 
 The artifact has been published as [a project on Github](https://github.com/SOFTWARE-2024/Hydrangea).
+
+## What is LLM-enabled software?
+
+It is software that integrates LLMs (large language models) with RAG (retrieval-augmented generation ) support to realize intelligence features.
+
+It contains four components:
+
+1. **LLM agent** that manages LLM interfaces, constructs prompts, and invokes the
+   LLM
+2. **Vector database** that supports RAG algorithm and enhances the LLM agent
+3. **Software component** that interacts with the first two components to perform certain tasks
+4. **System** that manages resources and privileges to carry out the execution
 
 ## What's inside the artifact:
 
@@ -15,7 +27,7 @@ For enhanced availability and reusability, we offer an organized defect library 
 
 Below are details of what is included in each part:
 
-### Metadata of applications
+### Application benchmark
 A suite of 100 non-trivial projects which tightly integrates LLMs and vector databases in their workflow, containing
    1. software project name
    2. GitHub link and commit ID
