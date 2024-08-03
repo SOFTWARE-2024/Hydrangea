@@ -1,4 +1,4 @@
-﻿APP,url,classification,commit id,LLM,,vectordb,,langchain,language
+﻿APP,url,classification,commit id,LLM,LLM_Deployment Environments,vectordb,VectorDB_Deployment Environments,langchain,language
 ,,,,instance,online/local,instance,online/local,,
 Shaunwei/RealChar,https://github.com/Shaunwei/RealChar,chatbot,ee36a803e220c8a3f021a61922ea81c59e7242ee,OpenAI,online,chroma,online,1,javascript
 eosphoros-ai/DB-GPT,https://github.com/eosphoros-ai/DB-GPT,multifunction,1519df7f0179be0957008e75fd27eafb9d6890f1,OpenAI,Online,chroma,local,1,python
@@ -124,5 +124,3 @@ task management,24%,#REF!,#REF!,,,,,,
 multifunction,18%,#REF!,#REF!,,,,,,
 chatbot,10%,#REF!,#REF!,,,,,,
 other,7%,#REF!,#REF!,,,,,,
-,,,,,,,,,
-,,,,,,,,,
