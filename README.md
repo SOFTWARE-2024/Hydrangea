@@ -1,6 +1,11 @@
 # A Replication of Are LLMs Correctly Integrated into Software Systems?
+<div style="overflow: auto;">
+  <img src="./Hydrangea.png" alt="Alt text" width="300" style="float: right; margin-left: 10px;">
+  <p>
+    This artifact accompanies our paper, "Are LLMs Correctly Integrated into Software Systems?" It contains metadata from 100 non-trivial open-source projects that incorporate LLMs, along with a comprehensive defect library detailing issues encountered when integrating LLMs and RAG into software systems. We hope this artifact can aid the development of LLM-enabled software and motivate future research.
+  </p>
+</div>
 
-This artifact accompanies our paper, "Are LLMs Correctly Integrated into Software Systems?" It contains metadata from 100 non-trivial open-source projects that incorporate LLMs, along with a comprehensive defect library detailing issues encountered when integrating LLMs and RAG into software systems. We hope this artifact can aid the development of LLM-enabled software and motivate future research. 
 
 The artifact has been published as [a project on Github](https://github.com/SOFTWARE-2024/Hydrangea).
 
