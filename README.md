@@ -25,7 +25,7 @@ A suite of 100 non-trivial projects which tightly integrates LLMs and vector dat
 ### Hydrangea Defect Library
 The result of TABLE Ⅱ in our paper can be reproduced by this organized defect library. 
 
-In the uploaded `defect_library.csv`, we have documented different cases for the same defect type, as defects can manifest in various ways. For each distinct case of the same defect, we have separated them with a blank line and labeled them as case 1, case 2, and so on, according to the specific circumstances.
+In the uploaded `application.csv`, we have documented different cases for the same defect type, as defects can manifest in various ways. For each distinct case of the same defect, we have separated them with a blank line and labeled them as case 1, case 2, and so on, according to the specific circumstances.
 
 It contains:
 
