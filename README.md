@@ -2,7 +2,7 @@
 <div style="overflow: auto;">
   <img src="./Hydrangea.png" alt="Alt text" width="300" style="float: right; margin-left: 10px;">
   <p>
-  Hydrangea is a defect library for LLM-enabled software. Hydrangea has 4 main petals, each corresponding to one of the major components where defects often arise: LLM agent, Vector database, Software component, and System.
+  Hydrangea is a defect library for LLM-enabled software. Hydrangea has 4 main petals, each corresponding to one of the major components where defects often arise: LLM agent, vector database, software component, and system.
   </p>
 </div>
 
