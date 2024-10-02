@@ -213,7 +213,7 @@ uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e85
 dbgpt/agent/plugin/commands/built_in/display_type/show_table_gen.py","1.Upload an Excel file with over a dozen dimensions.
 2.Start a conversation, where the chatbot generates the overflowing table."
 uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,unnecessary LLM output,/,"Optimize Log Output to Reduce Redundancy
-",UI,dbgpt/app/dbgpt_server.py,"1.Follow instructions on https://www.yuque.com/eosphoros/dbgpt-docs/owcrh9423f9rqkg2#LYjPt
+","UI,TK",dbgpt/app/dbgpt_server.py,"1.Follow instructions on https://www.yuque.com/eosphoros/dbgpt-docs/owcrh9423f9rqkg2#LYjPt
 2.Input:""Build sales reports and analyze user orders from at least three dimensions”
 3.Terminal: warp.app or iterm.app"
 uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,exceeding  LLM content limit,case1,"Multi-turn dialogue configuration is not supported. The parameter need_historical_messages=True is set, but it does not work. The model is qwen72b.",UI,"dbgpt/core/interface/prompt.py
@@ -250,7 +250,7 @@ The Chinese data queried in the chat is garbled.",IC,dbgpt/app/scene/cha
 uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,Out-of-sync LLM downstream tasks,/,when use gpt-4 upload ChatExcel，generate json error,"ST,IC",dbgpt/app/openapi/api_v1/api_v1.py,"1.In the Chat Excel scenario, upload a large xlsx file (you can use the test file provided here: https://github.com/eosphoros-ai/DB-GPT/issues/1337).
 2.Use GPT-4.
 3.The JSON generation is too slow, causing it to be incomplete and resulting in a JSON parsing error."
-uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,Imprecise knowledge retrieval,/,"Optimize api for query all knowledge spaces.When the number of spaces exceeds ten, it will be very slow. If there are more than ten, the results will not even be queried.",SL,"
+uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,Imprecise knowledge retrieval,/,"Optimize api for query all knowledge spaces.When the number of spaces exceeds ten, it will be very slow. If there are more than ten, the results will not even be queried.","SL,TK","
 dbgpt/app/knowledge/document_db.py/get_knowledge_documents_count_bulk
 DB-GPT-dbgpt/app/knowledge/space_db.py/get_knowledge_space","1.Create more than 10 knowledge spaces.
 2.Upload files to each knowledge space.
@@ -342,7 +342,7 @@ Sorry, We meet some error, please try agin later."
 yanll/YP-GPT,https://github.com/yanll/YP-GPT/tree/6df9f79f694ba4aaf0dc84867cd44e66c062c99f,Incompatible LLM output format,/,"When generating tables, if they are too long, they overflow. A scrollbar needs to be added.",UI,YP-GPT/dbgpt/agent/plugin/commands/built_in/display_type/show_table_gen.py,"1.Upload an Excel file with over a dozen dimensions.
 2.Start a conversation, where the chatbot generates the overflowing table."
 yanll/YP-GPT,https://github.com/yanll/YP-GPT/tree/6df9f79f694ba4aaf0dc84867cd44e66c062c99f,unnecessary LLM output,/,"Optimize Log Output to Reduce Redundancy
-",UI,YP-GPT/dbgpt/app/dbgpt_server.py,"1.Follow instructions on https://www.yuque.com/eosphoros/dbgpt-docs/owcrh9423f9rqkg2#LYjPt
+","UI,TK",YP-GPT/dbgpt/app/dbgpt_server.py,"1.Follow instructions on https://www.yuque.com/eosphoros/dbgpt-docs/owcrh9423f9rqkg2#LYjPt
 2.Input:""Build sales reports and analyze user orders from at least three dimensions”
 3.Terminal: warp.app or iterm.app"
 yanll/YP-GPT,https://github.com/yanll/YP-GPT/tree/6df9f79f694ba4aaf0dc84867cd44e66c062c99f,exceeding  LLM content limit,case1,"Multi-turn dialogue configuration is not supported. The parameter need_historical_messages=True is set, but it does not work. The model is qwen72b.",UI,"YP-GPT/dbgpt/app/scene/chat_db/auto_execute/prompt.py, chat.py","
@@ -2210,7 +2210,7 @@ FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9b
  File ""/usr/local/lib/python3.10/site-packages/openai/api_requestor.py"", line 682, in _interpret_response_line
     raise self.handle_error_response(
 openai.error.InvalidRequestError: This model's maximum context length is 8191 tokens, however you requested 15117 tokens (15117 in your prompt; 0 for the completion). Please reduce your prompt; or completion length."
-FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpt/agent/agent.py
+FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,"IC,IS","autogpt/agent/agent.py
 autogpt/llm/llm_utils.py
 autogpt/memory_management/store_memory.py
 ...","1.Configure and launch app according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.(use RedisMemory)
@@ -3403,7 +3403,7 @@ catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/
  File ""/usr/local/lib/python3.10/site-packages/openai/api_requestor.py"", line 682, in _interpret_response_line
     raise self.handle_error_response(
 openai.error.InvalidRequestError: This model's maximum context length is 8191 tokens, however you requested 15117 tokens (15117 in your prompt; 0 for the completion). Please reduce your prompt; or completion length."
-catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/2f8066fb4121ba0f724cbe92c4cbef91ecf5cc29,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"scripts/agent_manager.py
+catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/2f8066fb4121ba0f724cbe92c4cbef91ecf5cc29,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,"IC,IS","scripts/agent_manager.py
 scripts/memory.py
 scripts/commands.py","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.(use RedisMemory)
 2.Create an AI agent with a specific role and goals. (Role: an AI agent that specializes in Cisco ACI fabrics and provides expert guidance on the usage of VxLAN technology to enable efficient communication between endpoints in a data center network. Goals: Explain the benefits of VxLAN technology in Cisco ACI fabrics, including increased scalability, flexibility, and network virtualization.)
@@ -4384,7 +4384,7 @@ src/utils.py","1. Set up h2ogpt: Ensure the project is correctly set up in your 
 4. Open the query interface in the web UI.
 5. Enter a query specifically asking about the content of a table in the uploaded document.
 6. Observe if any bugs are triggered when the model handles the question about the table's content, such as errors or incorrect responses."
-h2oai/h2ogpt,https://github.com/h2oai/h2ogpt/tree/15f3a2d564541020f78cfc83bc90722dcda8a960,Imprecise knowledge retrieval,/,Mismatch Between Query Response and Source Document Ordering in a Captive Network with Multiple ,ST,"openai_server/server.py
+h2oai/h2ogpt,https://github.com/h2oai/h2ogpt/tree/15f3a2d564541020f78cfc83bc90722dcda8a960,Imprecise knowledge retrieval,/,Mismatch Between Query Response and Source Document Ordering in a Captive Network with Multiple ,"ST,TK","openai_server/server.py
 src/utils.py","1. Set up h2ogpt: Ensure the project is correctly set up in your local environment.
 2. Configure the system to connect to a captive network with multiple source documents.
 3. Run h2ogpt: Execute `python app.py` or the relevant command to start the server.
@@ -5515,7 +5515,7 @@ Set the max_memory parameter to 1024MB and the memory_limit parameter to 512MB.
 4.Monitor Memory Usage:Observe the memory usage of the MemGPT process. Use a tool like htop or psutil to monitor memory consumption.
 5.Observe the Error:Note if an error is thrown indicating that the memory usage has exceeded the limit. The error message should be similar to:MemoryError: Exceeded memory limit of 512MB.
 6.Check Logs:Review the application logs for any additional error messages or stack traces related to the memory limit."
-cpacker/MemGPT,https://github.com/cpacker/MemGPT/tree/6e2c92e3abda617b9efc96c88b582195579717c8,improper text embedding,case1,Timeout errors on MemGPT embedding endpoint ,SL,"letta/settings.py
+cpacker/MemGPT,https://github.com/cpacker/MemGPT/tree/6e2c92e3abda617b9efc96c88b582195579717c8,improper text embedding,case1,Timeout errors on MemGPT embedding endpoint ,"SL,TK","letta/settings.py
 letta/embeddings.py
 letta/server/rest_api/interface.py","1. Set up MemGPT: Ensure the project is correctly set up in your local environment.
 2. Start MemGPT Server: Execute `python memgpt.py` or the relevant command to run the server.
@@ -6245,7 +6245,7 @@ server/utils/helpers/chat/convertTo.js","1.In the the application, select a�
 like ""Explain what it is."" or ""If the sun were blue, what color would the moon be?"""
 Mintplex-Labs/anything-llm,https://github.com/Mintplex-Labs/anything-llm/tree/ebd3a62866e9e17b07a4a973b74329c0297fb78a,Missing LLM input format validation,/,The analysis of PPT documents needs optimization,IC,"server/utils/EmbeddingEngines/openAi/index.js
 frontend/src/components/WorkspaceChat/ChatContainer/PromptInput/index.jsx",Upload the pptx file.
-Mintplex-Labs/anything-llm,https://github.com/Mintplex-Labs/anything-llm/tree/ebd3a62866e9e17b07a4a973b74329c0297fb78a,improper text embedding,/,User Query embeddings are being chunked per character when using LM Studio embedding models,IC,"frontend/src/utils/paths.js
+Mintplex-Labs/anything-llm,https://github.com/Mintplex-Labs/anything-llm/tree/ebd3a62866e9e17b07a4a973b74329c0297fb78a,improper text embedding,/,User Query embeddings are being chunked per character when using LM Studio embedding models,"IC,TK","frontend/src/utils/paths.js
 frontend/src/components/EmbeddingSelection/CohereOptions/index.jsx","1. Set up Anything-LLM: Ensure the project is correctly set up in your local environment.
 2. Configure LM Studio Embedding Models: Ensure the LM Studio embedding models are properly integrated.
 3. Run Anything-LLM: Execute `python app.py` or the relevant command to start the server.
