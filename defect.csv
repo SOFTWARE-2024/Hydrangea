@@ -84,7 +84,7 @@ And returned error is:
 Sorry, We meet some error, please try agin later."
 eosphoros-ai/DB-GPT,https://github.com/eosphoros-ai/DB-GPT/tree/1519df7f0179be0957008e75fd27eafb9d6890f1,Incompatible LLM output format,/,"When generating tables, if they are too long, they overflow. A scrollbar needs to be added.",UI,dbgpt/agent/plugin/commands/built_in/display_type/show_table_gen.py,"1.Upload an Excel file with over a dozen dimensions.
 2.Start a conversation, where the chatbot generates the overflowing table."
-eosphoros-ai/DB-GPT,https://github.com/eosphoros-ai/DB-GPT/tree/1519df7f0179be0957008e75fd27eafb9d6890f1,unnecesssary LLM output,/,"Optimize Log Output to Reduce Redundancy
+eosphoros-ai/DB-GPT,https://github.com/eosphoros-ai/DB-GPT/tree/1519df7f0179be0957008e75fd27eafb9d6890f1,unnecessary LLM output,/,"Optimize Log Output to Reduce Redundancy
 ",UI,dbgpt/app/dbgpt_server.py,"1.Follow instructions on https://www.yuque.com/eosphoros/dbgpt-docs/owcrh9423f9rqkg2#LYjPt
 2.Input:""Build sales reports and analyze user orders from at least three dimensions”
 3.Terminal: warp.app or iterm.app"
@@ -121,7 +121,7 @@ The Chinese data queried in the chat is garbled.",IC,dbgpt/app/scene/cha
 eosphoros-ai/DB-GPT,https://github.com/eosphoros-ai/DB-GPT/tree/1519df7f0179be0957008e75fd27eafb9d6890f1,Out-of-sync LLM downstream tasks,/,when use gpt-4 upload ChatExcel，generate json error,"ST,IC",web/components/chat/header/excel-uploaded.tsx,"1.In the Chat Excel scenario, upload a large xlsx file (you can use the test file provided here: https://github.com/eosphoros-ai/DB-GPT/issues/1337).
 2.Use GPT-4.
 3.The JSON generation is too slow, causing it to be incomplete and resulting in a JSON parsing error."
-eosphoros-ai/DB-GPT,https://github.com/eosphoros-ai/DB-GPT/tree/1519df7f0179be0957008e75fd27eafb9d6890f1,imprecise knowledge retrieval,/,"Optimize api for query all knowledge spaces.When the number of spaces exceeds ten, it will be very slow. If there are more than ten, the results will not even be queried.",SL,"pilot/server/knowledge/document_db.py/get_knowledge_documents_count_bulk
+eosphoros-ai/DB-GPT,https://github.com/eosphoros-ai/DB-GPT/tree/1519df7f0179be0957008e75fd27eafb9d6890f1,Imprecise knowledge retrieval,/,"Optimize api for query all knowledge spaces.When the number of spaces exceeds ten, it will be very slow. If there are more than ten, the results will not even be queried.",SL,"pilot/server/knowledge/document_db.py/get_knowledge_documents_count_bulk
 pilot/server/knowledge/service.py/get_knowledge_space","1.Create more than 10 knowledge spaces.
 2.Upload files to each knowledge space.
 3.The response process of the /knowledge/space/list interface is very slow, making it difficult to promptly view the number of documents for each space."
@@ -212,7 +212,7 @@ Sorry, We meet some error, please try agin later."
 uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,Incompatible LLM output format,/,"When generating tables, if they are too long, they overflow. A scrollbar needs to be added.",UI,"
 dbgpt/agent/plugin/commands/built_in/display_type/show_table_gen.py","1.Upload an Excel file with over a dozen dimensions.
 2.Start a conversation, where the chatbot generates the overflowing table."
-uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,unnecesssary LLM output,/,"Optimize Log Output to Reduce Redundancy
+uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,unnecessary LLM output,/,"Optimize Log Output to Reduce Redundancy
 ",UI,dbgpt/app/dbgpt_server.py,"1.Follow instructions on https://www.yuque.com/eosphoros/dbgpt-docs/owcrh9423f9rqkg2#LYjPt
 2.Input:""Build sales reports and analyze user orders from at least three dimensions”
 3.Terminal: warp.app or iterm.app"
@@ -250,7 +250,7 @@ The Chinese data queried in the chat is garbled.",IC,dbgpt/app/scene/cha
 uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,Out-of-sync LLM downstream tasks,/,when use gpt-4 upload ChatExcel，generate json error,"ST,IC",dbgpt/app/openapi/api_v1/api_v1.py,"1.In the Chat Excel scenario, upload a large xlsx file (you can use the test file provided here: https://github.com/eosphoros-ai/DB-GPT/issues/1337).
 2.Use GPT-4.
 3.The JSON generation is too slow, causing it to be incomplete and resulting in a JSON parsing error."
-uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,imprecise knowledge retrieval,/,"Optimize api for query all knowledge spaces.When the number of spaces exceeds ten, it will be very slow. If there are more than ten, the results will not even be queried.",SL,"
+uukuguy/DB-GPT-Lite,https://github.com/uukuguy/DB-GPT-Lite/tree/d857cb71f2c19e8535d0f5e9692e15c4e4dd100d,Imprecise knowledge retrieval,/,"Optimize api for query all knowledge spaces.When the number of spaces exceeds ten, it will be very slow. If there are more than ten, the results will not even be queried.",SL,"
 dbgpt/app/knowledge/document_db.py/get_knowledge_documents_count_bulk
 DB-GPT-dbgpt/app/knowledge/space_db.py/get_knowledge_space","1.Create more than 10 knowledge spaces.
 2.Upload files to each knowledge space.
@@ -341,7 +341,7 @@ And returned error is:
 Sorry, We meet some error, please try agin later."
 yanll/YP-GPT,https://github.com/yanll/YP-GPT/tree/6df9f79f694ba4aaf0dc84867cd44e66c062c99f,Incompatible LLM output format,/,"When generating tables, if they are too long, they overflow. A scrollbar needs to be added.",UI,YP-GPT/dbgpt/agent/plugin/commands/built_in/display_type/show_table_gen.py,"1.Upload an Excel file with over a dozen dimensions.
 2.Start a conversation, where the chatbot generates the overflowing table."
-yanll/YP-GPT,https://github.com/yanll/YP-GPT/tree/6df9f79f694ba4aaf0dc84867cd44e66c062c99f,unnecesssary LLM output,/,"Optimize Log Output to Reduce Redundancy
+yanll/YP-GPT,https://github.com/yanll/YP-GPT/tree/6df9f79f694ba4aaf0dc84867cd44e66c062c99f,unnecessary LLM output,/,"Optimize Log Output to Reduce Redundancy
 ",UI,YP-GPT/dbgpt/app/dbgpt_server.py,"1.Follow instructions on https://www.yuque.com/eosphoros/dbgpt-docs/owcrh9423f9rqkg2#LYjPt
 2.Input:""Build sales reports and analyze user orders from at least three dimensions”
 3.Terminal: warp.app or iterm.app"
@@ -378,7 +378,7 @@ The Chinese data queried in the chat is garbled.",IC,YP-GPT/dbgpt/app/sc
 yanll/YP-GPT,https://github.com/yanll/YP-GPT/tree/6df9f79f694ba4aaf0dc84867cd44e66c062c99f,Out-of-sync LLM downstream tasks,/,when use gpt-4 upload ChatExcel，generate json error,"ST,IC",YP-GPT/dbgpt/web/components/chat/header/excel-uploaded.tsx,"1.In the Chat Excel scenario, upload a large xlsx file (you can use the test file provided here: https://github.com/eosphoros-ai/DB-GPT/issues/1337).
 2.Use GPT-4.
 3.The JSON generation is too slow, causing it to be incomplete and resulting in a JSON parsing error."
-yanll/YP-GPT,https://github.com/yanll/YP-GPT/tree/6df9f79f694ba4aaf0dc84867cd44e66c062c99f,imprecise knowledge retrieval,/,"Optimize api for query all knowledge spaces.When the number of spaces exceeds ten, it will be very slow. If there are more than ten, the results will not even be queried.",SL,"YP-GPT/dbgpt/pilot/server/knowledge/document_db.py/get_knowledge_documents_count_bulk
+yanll/YP-GPT,https://github.com/yanll/YP-GPT/tree/6df9f79f694ba4aaf0dc84867cd44e66c062c99f,Imprecise knowledge retrieval,/,"Optimize api for query all knowledge spaces.When the number of spaces exceeds ten, it will be very slow. If there are more than ten, the results will not even be queried.",SL,"YP-GPT/dbgpt/pilot/server/knowledge/document_db.py/get_knowledge_documents_count_bulk
 YP-GPT/dbgpt/pilot/server/knowledge/service.py/get_knowledge_space","1.Create more than 10 knowledge spaces.
 2.Upload files to each knowledge space.
 3.The response process of the /knowledge/space/list interface is very slow, making it difficult to promptly view the number of documents for each space."
@@ -469,7 +469,7 @@ And returned error is:
 Sorry, We meet some error, please try agin later."
 fangyinc/DB-GPT,https://github.com/fangyinc/DB-GPT/tree/f317740d5557b56899d1a3e786ca7cc583fdd700,Incompatible LLM output format,/,"When generating tables, if they are too long, they overflow. A scrollbar needs to be added.",UI,dbgpt/agent/expand/actions/chart_action.py/display_type,"1.Upload an Excel file with over a dozen dimensions.
 2.Start a conversation, where the chatbot generates the overflowing table."
-fangyinc/DB-GPT,https://github.com/fangyinc/DB-GPT/tree/f317740d5557b56899d1a3e786ca7cc583fdd700,unnecesssary LLM output,/,"Optimize Log Output to Reduce Redundancy
+fangyinc/DB-GPT,https://github.com/fangyinc/DB-GPT/tree/f317740d5557b56899d1a3e786ca7cc583fdd700,unnecessary LLM output,/,"Optimize Log Output to Reduce Redundancy
 ",UI,dbgpt/app/dbgpt_server.py,"1.Follow instructions on https://www.yuque.com/eosphoros/dbgpt-docs/owcrh9423f9rqkg2#LYjPt
 2.Input:""Build sales reports and analyze user orders from at least three dimensions”
 3.Terminal: warp.app or iterm.app"
@@ -507,7 +507,7 @@ The Chinese data queried in the chat is garbled.",IC,dbgpt/app/scene/cha
 fangyinc/DB-GPT,https://github.com/fangyinc/DB-GPT/tree/f317740d5557b56899d1a3e786ca7cc583fdd700,Out-of-sync LLM downstream tasks,/,when use gpt-4 upload ChatExcel，generate json error,"ST,IC",dbgpt/app/openapi/api_v1/api_v1.py,"1.In the Chat Excel scenario, upload a large xlsx file (you can use the test file provided here: https://github.com/eosphoros-ai/DB-GPT/issues/1337).
 2.Use GPT-4.
 3.The JSON generation is too slow, causing it to be incomplete and resulting in a JSON parsing error."
-fangyinc/DB-GPT,https://github.com/fangyinc/DB-GPT/tree/f317740d5557b56899d1a3e786ca7cc583fdd700,imprecise knowledge retrieval,/,"Optimize api for query all knowledge spaces.When the number of spaces exceeds ten, it will be very slow. If there are more than ten, the results will not even be queried.",SL,"dbgpt/app/knowledge/document_db.py/get_knowledge_documents_count_bulk
+fangyinc/DB-GPT,https://github.com/fangyinc/DB-GPT/tree/f317740d5557b56899d1a3e786ca7cc583fdd700,Imprecise knowledge retrieval,/,"Optimize api for query all knowledge spaces.When the number of spaces exceeds ten, it will be very slow. If there are more than ten, the results will not even be queried.",SL,"dbgpt/app/knowledge/document_db.py/get_knowledge_documents_count_bulk
 dbgpt/app/knowledge/service.py/get_knowledge_space","1.Create more than 10 knowledge spaces.
 2.Upload files to each knowledge space.
 3.The response process of the /knowledge/space/list interface is very slow, making it difficult to promptly view the number of documents for each space."
@@ -556,7 +556,7 @@ X-D-Lab/LangChain-ChatGLM-Webui,https://github.com/X-D-Lab/LangChain-ChatGLM-Web
 2.After uploading one file, the user cannot upload any additional files."
 X-D-Lab/LangChain-ChatGLM-Webui,https://github.com/X-D-Lab/LangChain-ChatGLM-Webui/tree/ef829a28234228761a97541e4ebae9da4f4e6800,exceeding  LLM content limit,/,Unable to simultaneously upload multiple documents of the same format or multiple documents of different formats.,IC,"paddlepaddle/chatllm.py
 chatllm.py",simultaneously upload multiple documents of the same format or multiple documents of different formats.
-X-D-Lab/LangChain-ChatGLM-Webui,https://github.com/X-D-Lab/LangChain-ChatGLM-Webui/tree/ef829a28234228761a97541e4ebae9da4f4e6800,conflict knowledge entries,/,"
+X-D-Lab/LangChain-ChatGLM-Webui,https://github.com/X-D-Lab/LangChain-ChatGLM-Webui/tree/ef829a28234228761a97541e4ebae9da4f4e6800,conflicting knowledge entries,/,"
 When a new file is uploaded, the knowledge from the previous file is overwritten. users want to enable multiple files to be uploaded sequentially, accumulating and combining into the knowledge base.",IC,"1.LangChain-ChatGLM-Webui/app.py/class KnowledgeBasedChatLLM/load_file()
 2.LangChain-ChatGLM-Webui/app.py/class KnowledgeBasedChatLLM/init_vector_store()
 3..LangChain-ChatGLM-Webui/app.py/the Gradio UI section/""file = gr.File(label='请上传知识库文件', file_types=['.txt', '.md', '.docx', '.pdf'])""","(same as bug1:Unable to simultaneously upload multiple documents of the same format or multiple documents of different formats.)
@@ -583,7 +583,7 @@ langchain-ai/chat-langchain,https://github.com/langchain-ai/chat-langchain/tree/
 langchain-ai/chat-langchain,https://github.com/langchain-ai/chat-langchain/tree/a875a649109ad7c3d68d7e9b75508f687e627ca4,,case2,"When users ask questions outside of context, Chat-Langchain does not return 'Hmm, I'm not sure' as expected. Instead, it generates answers from the internet.",IC,"backend/graph.py/RESPONSE_TEMPLATE, COHERE_RESPONSE_TEMPLATE, retrieve_documents(), synthesize_response(),...","1.Ask a question outside of context in the UI interface.
 2.Notice that the returned Chat-langchain generates answer form internet, instead of returning ""Hmm, Im not sure""."
 langchain-ai/chat-langchain,https://github.com/langchain-ai/chat-langchain/tree/a875a649109ad7c3d68d7e9b75508f687e627ca4,Missing LLM input format validation,/,The analysis of PPT documents needs optimization,IC,_scripts/evaluate_chains_agent.py,Upload the pptx file.
-langchain-ai/chat-langchain,https://github.com/langchain-ai/chat-langchain/tree/a875a649109ad7c3d68d7e9b75508f687e627ca4,unnecesssary LLM output,/,Running locally. Tthe answer strings displayed in the frontend contain repeated words.,IC,"frontend/app/components/ChatWindow.tsx
+langchain-ai/chat-langchain,https://github.com/langchain-ai/chat-langchain/tree/a875a649109ad7c3d68d7e9b75508f687e627ca4,unnecessary LLM output,/,Running locally. Tthe answer strings displayed in the frontend contain repeated words.,IC,"frontend/app/components/ChatWindow.tsx
 (applyPatch modifies the document so every token got added twice to the stream)","1.Set up chat-langchain locally.
 2.Open the browser interface and ask a question.
 3.Notice that the answers displayed in the browser have duplicated words (e.g., ""CanCan you you provide provide me me with with instructions instructions on on how how to to..."").
@@ -594,7 +594,7 @@ hamelsmu/chat-langchain,https://github.com/hamelsmu/chat-langchain/tree/8252cc46
 hamelsmu/chat-langchain,https://github.com/hamelsmu/chat-langchain/tree/8252cc469335da08230afb049cdc7dfb178c328b,,case2,"When users ask questions outside of context, Chat-Langchain does not return 'Hmm, I'm not sure' as expected. Instead, it generates answers from the internet.",IC,query_data.py,"1.Ask a question outside of context in the UI interface.
 2.Notice that the returned Chat-langchain generates answer form internet, instead of returning ""Hmm, Im not sure""."
 hamelsmu/chat-langchain,https://github.com/hamelsmu/chat-langchain/tree/8252cc469335da08230afb049cdc7dfb178c328b,Missing LLM input format validation,/,The analysis of PPT documents needs optimization,IC,ingest.py,Upload the pptx file.
-hamelsmu/chat-langchain,https://github.com/hamelsmu/chat-langchain/tree/8252cc469335da08230afb049cdc7dfb178c328b,unnecesssary LLM output,/,Running locally. Tthe answer strings displayed in the frontend contain repeated words.,IC,main.py,"1.Set up chat-langchain locally.
+hamelsmu/chat-langchain,https://github.com/hamelsmu/chat-langchain/tree/8252cc469335da08230afb049cdc7dfb178c328b,unnecessary LLM output,/,Running locally. Tthe answer strings displayed in the frontend contain repeated words.,IC,main.py,"1.Set up chat-langchain locally.
 2.Open the browser interface and ask a question.
 3.Notice that the answers displayed in the browser have duplicated words (e.g., ""CanCan you you provide provide me me with with instructions instructions on on how how to to..."").
 4.Debug backtrace from smith shows the response works fine, but the issue persists in the browser display."
@@ -605,7 +605,7 @@ joaocarlosleme/chat-langchain,https://github.com/joaocarlosleme/chat-langchain/t
 joaocarlosleme/chat-langchain,https://github.com/joaocarlosleme/chat-langchain/tree/362e71c016d70022a6b1d067e0cddbe1a6ef496e,,case2,"When users ask questions outside of context, Chat-Langchain does not return 'Hmm, I'm not sure' as expected. Instead, it generates answers from the internet.",IC,query_data.py,"1.Ask a question outside of context in the UI interface.
 2.Notice that the returned Chat-langchain generates answer form internet, instead of returning ""Hmm, Im not sure""."
 joaocarlosleme/chat-langchain,https://github.com/joaocarlosleme/chat-langchain/tree/362e71c016d70022a6b1d067e0cddbe1a6ef496e,Missing LLM input format validation,/,The analysis of PPT documents needs optimization,IC,ingest.py,Upload the pptx file.
-joaocarlosleme/chat-langchain,https://github.com/joaocarlosleme/chat-langchain/tree/362e71c016d70022a6b1d067e0cddbe1a6ef496e,unnecesssary LLM output,/,Running locally. Tthe answer strings displayed in the frontend contain repeated words.,IC,main.py,"1.Set up chat-langchain locally.
+joaocarlosleme/chat-langchain,https://github.com/joaocarlosleme/chat-langchain/tree/362e71c016d70022a6b1d067e0cddbe1a6ef496e,unnecessary LLM output,/,Running locally. Tthe answer strings displayed in the frontend contain repeated words.,IC,main.py,"1.Set up chat-langchain locally.
 2.Open the browser interface and ask a question.
 3.Notice that the answers displayed in the browser have duplicated words (e.g., ""CanCan you you provide provide me me with with instructions instructions on on how how to to..."").
 4.Debug backtrace from smith shows the response works fine, but the issue persists in the browser display."
@@ -618,7 +618,7 @@ blu3mo/scrapchat,https://github.com/blu3mo/scrapchat/tree/ce78a875399b069d3d5c44
 2.Notice that the returned Chat-langchain generates answer form internet, instead of returning ""Hmm, Im not sure""."
 blu3mo/scrapchat,https://github.com/blu3mo/scrapchat/tree/ce78a875399b069d3d5c44c738cb10fb3704c0fd,Missing LLM input format validation,/,The analysis of PPT documents needs optimization,IC,"archive/app.py
 archive/ingest_examples.py",Upload the pptx file.
-blu3mo/scrapchat,https://github.com/blu3mo/scrapchat/tree/ce78a875399b069d3d5c44c738cb10fb3704c0fd,unnecesssary LLM output,/,Running locally. Tthe answer strings displayed in the frontend contain repeated words.,IC,"query_data.py
+blu3mo/scrapchat,https://github.com/blu3mo/scrapchat/tree/ce78a875399b069d3d5c44c738cb10fb3704c0fd,unnecessary LLM output,/,Running locally. Tthe answer strings displayed in the frontend contain repeated words.,IC,"query_data.py
 archive/chain.py
 callback.py","1.Set up chat-langchain locally.
 2.Open the browser interface and ask a question.
@@ -642,7 +642,7 @@ yoheinakajima/babyagi,https://github.com/yoheinakajima/babyagi/tree/3532f987744e
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 yoheinakajima/babyagi,https://github.com/yoheinakajima/babyagi/tree/3532f987744e9254afacc254e3325d1910c0651d,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"babyagi/babyagi.py/task_creation_agent(), prioritization_agent()","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-yoheinakajima/babyagi,https://github.com/yoheinakajima/babyagi/tree/3532f987744e9254afacc254e3325d1910c0651d,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi/babyagi.py/task_creation_agent(),"1.Clone the Repository:
+yoheinakajima/babyagi,https://github.com/yoheinakajima/babyagi/tree/3532f987744e9254afacc254e3325d1910c0651d,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi/babyagi.py/task_creation_agent(),"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -662,7 +662,7 @@ yoheinakajima/babyagi,https://github.com/yoheinakajima/babyagi/tree/3532f987744e
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-yoheinakajima/babyagi,https://github.com/yoheinakajima/babyagi/tree/3532f987744e9254afacc254e3325d1910c0651d,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi/babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
+yoheinakajima/babyagi,https://github.com/yoheinakajima/babyagi/tree/3532f987744e9254afacc254e3325d1910c0651d,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi/babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -722,7 +722,7 @@ dory111111/babyagi-streamlit,https://github.com/dory111111/babyagi-streamlit/tre
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 dory111111/babyagi-streamlit,https://github.com/dory111111/babyagi-streamlit/tree/088aa7376c39d541543a3518df8bd5db46633f51,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"babyagi.py/task_creation_agent(), prioritization_agent()","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-dory111111/babyagi-streamlit,https://github.com/dory111111/babyagi-streamlit/tree/088aa7376c39d541543a3518df8bd5db46633f51,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
+dory111111/babyagi-streamlit,https://github.com/dory111111/babyagi-streamlit/tree/088aa7376c39d541543a3518df8bd5db46633f51,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -742,7 +742,7 @@ dory111111/babyagi-streamlit,https://github.com/dory111111/babyagi-streamlit/tre
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-dory111111/babyagi-streamlit,https://github.com/dory111111/babyagi-streamlit/tree/088aa7376c39d541543a3518df8bd5db46633f51,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
+dory111111/babyagi-streamlit,https://github.com/dory111111/babyagi-streamlit/tree/088aa7376c39d541543a3518df8bd5db46633f51,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -765,8 +765,7 @@ dory111111/babyagi-streamlit,https://github.com/dory111111/babyagi-streamlit/tre
 10.Close the Instance:Stop the running script by pressing Ctrl+C in the terminal or closing the terminal window.
 11.Restart the script to check if the previous tasks and outcomes are retrievable.
 12.Notice that the previous tasks and outcomes are not available."
-dory111111/babyagi-streamlit,https://github.com/dory111111/babyagi-streamlit/tree/088aa7376c39d541543a3518df8bd5db46633f51,,case2,Babyagi nerver ends and summerizes what has been done so far. The task creation agent always assumes it needs to create more tasks.,UI,"babyagi.py/task_creation_agent(), main() loop","(for example:)
-1.Clone the Repository:
+dory111111/babyagi-streamlit,https://github.com/dory111111/babyagi-streamlit/tree/088aa7376c39d541543a3518df8bd5db46633f51,,case2,Babyagi nerver ends and summerizes what has been done so far. The task creation agent always assumes it needs to create more tasks.,UI,"babyagi.py/task_creation_agent(), main() loop","1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -802,7 +801,7 @@ kroll-software/babyagi4all,https://github.com/kroll-software/babyagi4all/tree/3d
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 kroll-software/babyagi4all,https://github.com/kroll-software/babyagi4all/tree/3dc42659eb5cb51dbea71b565ce09f61a130cc20,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"babyagi.py/task_creation_agent(), prioritization_agent()","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-kroll-software/babyagi4all,https://github.com/kroll-software/babyagi4all/tree/3dc42659eb5cb51dbea71b565ce09f61a130cc20,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
+kroll-software/babyagi4all,https://github.com/kroll-software/babyagi4all/tree/3dc42659eb5cb51dbea71b565ce09f61a130cc20,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -822,7 +821,7 @@ kroll-software/babyagi4all,https://github.com/kroll-software/babyagi4all/tree/3d
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-kroll-software/babyagi4all,https://github.com/kroll-software/babyagi4all/tree/3dc42659eb5cb51dbea71b565ce09f61a130cc20,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
+kroll-software/babyagi4all,https://github.com/kroll-software/babyagi4all/tree/3dc42659eb5cb51dbea71b565ce09f61a130cc20,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -845,8 +844,7 @@ kroll-software/babyagi4all,https://github.com/kroll-software/babyagi4all/tree/3d
 10.Close the Instance:Stop the running script by pressing Ctrl+C in the terminal or closing the terminal window.
 11.Restart the script to check if the previous tasks and outcomes are retrievable.
 12.Notice that the previous tasks and outcomes are not available."
-kroll-software/babyagi4all,https://github.com/kroll-software/babyagi4all/tree/3dc42659eb5cb51dbea71b565ce09f61a130cc20,,case2,Babyagi nerver ends and summerizes what has been done so far. The task creation agent always assumes it needs to create more tasks.,UI,"babyagi.py/task_creation_agent(), main() loop","(for example:)
-1.Clone the Repository:
+kroll-software/babyagi4all,https://github.com/kroll-software/babyagi4all/tree/3dc42659eb5cb51dbea71b565ce09f61a130cc20,,case2,Babyagi nerver ends and summerizes what has been done so far. The task creation agent always assumes it needs to create more tasks.,UI,"babyagi.py/task_creation_agent(), main() loop","1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -882,7 +880,7 @@ sw5park/LUISE,https://github.com/sw5park/LUISE/tree/e88343c1e2d1c634a33838500e6c
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 sw5park/LUISE,https://github.com/sw5park/LUISE/tree/e88343c1e2d1c634a33838500e6cc72aa97fdeaa,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"scripts/main.py/task_creation_agent(), prioritization_agent()","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-sw5park/LUISE,https://github.com/sw5park/LUISE/tree/e88343c1e2d1c634a33838500e6cc72aa97fdeaa,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",scripts/main.py/task_creation_agent(),"1.Clone the Repository:
+sw5park/LUISE,https://github.com/sw5park/LUISE/tree/e88343c1e2d1c634a33838500e6cc72aa97fdeaa,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",scripts/main.py/task_creation_agent(),"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -902,7 +900,7 @@ sw5park/LUISE,https://github.com/sw5park/LUISE/tree/e88343c1e2d1c634a33838500e6c
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-sw5park/LUISE,https://github.com/sw5park/LUISE/tree/e88343c1e2d1c634a33838500e6cc72aa97fdeaa,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",scripts/main.py/execution_agent(),"(steps to use the script:babyagi.py)
+sw5park/LUISE,https://github.com/sw5park/LUISE/tree/e88343c1e2d1c634a33838500e6cc72aa97fdeaa,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",scripts/main.py/execution_agent(),"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -962,7 +960,7 @@ robiwan303/babyagi,https://github.com/robiwan303/babyagi/tree/9c22f0536757100945
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 robiwan303/babyagi,https://github.com/robiwan303/babyagi/tree/9c22f053675710094576bfc4e6527f59a50e6ac2,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"babyagi.py/task_creation_agent(), prioritization_agent()","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-robiwan303/babyagi,https://github.com/robiwan303/babyagi/tree/9c22f053675710094576bfc4e6527f59a50e6ac2,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
+robiwan303/babyagi,https://github.com/robiwan303/babyagi/tree/9c22f053675710094576bfc4e6527f59a50e6ac2,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -982,7 +980,7 @@ robiwan303/babyagi,https://github.com/robiwan303/babyagi/tree/9c22f0536757100945
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-robiwan303/babyagi,https://github.com/robiwan303/babyagi/tree/9c22f053675710094576bfc4e6527f59a50e6ac2,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
+robiwan303/babyagi,https://github.com/robiwan303/babyagi/tree/9c22f053675710094576bfc4e6527f59a50e6ac2,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -1042,7 +1040,7 @@ saten-private/BabyCommandAGI,https://github.com/saten-private/BabyCommandAGI/tre
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 saten-private/BabyCommandAGI,https://github.com/saten-private/BabyCommandAGI/tree/993f7075479d4d89948410bfec0c4c18d4a06b0c,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"classic/babyagi.py/task_creation_agent(), prioritization_agent()","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-saten-private/BabyCommandAGI,https://github.com/saten-private/BabyCommandAGI/tree/993f7075479d4d89948410bfec0c4c18d4a06b0c,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",classic/babyagi.py/task_creation_agent(),"1.Clone the Repository:
+saten-private/BabyCommandAGI,https://github.com/saten-private/BabyCommandAGI/tree/993f7075479d4d89948410bfec0c4c18d4a06b0c,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",classic/babyagi.py/task_creation_agent(),"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -1062,7 +1060,7 @@ saten-private/BabyCommandAGI,https://github.com/saten-private/BabyCommandAGI/tre
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-saten-private/BabyCommandAGI,https://github.com/saten-private/BabyCommandAGI/tree/993f7075479d4d89948410bfec0c4c18d4a06b0c,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",classic/babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
+saten-private/BabyCommandAGI,https://github.com/saten-private/BabyCommandAGI/tree/993f7075479d4d89948410bfec0c4c18d4a06b0c,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",classic/babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -1122,7 +1120,7 @@ ai8hyf/babyagi,https://github.com/ai8hyf/babyagi/tree/6fcd528a92c80846dbb351f2b7
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 ai8hyf/babyagi,https://github.com/ai8hyf/babyagi/tree/6fcd528a92c80846dbb351f2b7babdd50c38709d,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"babyagi.py/task_creation_agent(), prioritization_agent()","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-ai8hyf/babyagi,https://github.com/ai8hyf/babyagi/tree/6fcd528a92c80846dbb351f2b7babdd50c38709d,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
+ai8hyf/babyagi,https://github.com/ai8hyf/babyagi/tree/6fcd528a92c80846dbb351f2b7babdd50c38709d,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -1142,7 +1140,7 @@ ai8hyf/babyagi,https://github.com/ai8hyf/babyagi/tree/6fcd528a92c80846dbb351f2b7
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-ai8hyf/babyagi,https://github.com/ai8hyf/babyagi/tree/6fcd528a92c80846dbb351f2b7babdd50c38709d,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
+ai8hyf/babyagi,https://github.com/ai8hyf/babyagi/tree/6fcd528a92c80846dbb351f2b7babdd50c38709d,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -1202,7 +1200,7 @@ matigumma/bb.agi,https://github.com/matigumma/bb.agi/tree/9af4396c1c97b0de3fc47c
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 matigumma/bb.agi,https://github.com/matigumma/bb.agi/tree/9af4396c1c97b0de3fc47ceb35ff8e4489be6254,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"babyagi.py/task_creation_agent(), prioritization_agent()","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-matigumma/bb.agi,https://github.com/matigumma/bb.agi/tree/9af4396c1c97b0de3fc47ceb35ff8e4489be6254,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
+matigumma/bb.agi,https://github.com/matigumma/bb.agi/tree/9af4396c1c97b0de3fc47ceb35ff8e4489be6254,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -1222,7 +1220,7 @@ matigumma/bb.agi,https://github.com/matigumma/bb.agi/tree/9af4396c1c97b0de3fc47c
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-matigumma/bb.agi,https://github.com/matigumma/bb.agi/tree/9af4396c1c97b0de3fc47ceb35ff8e4489be6254,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
+matigumma/bb.agi,https://github.com/matigumma/bb.agi/tree/9af4396c1c97b0de3fc47ceb35ff8e4489be6254,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -1282,7 +1280,7 @@ VTSTech/localagi,https://github.com/VTSTech/localagi/tree/85ecc246bd50783e9edaa4
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 VTSTech/localagi,https://github.com/VTSTech/localagi/tree/85ecc246bd50783e9edaa4227493c0ac127912d8,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"babyagi.py/create_task(), update_task()","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-VTSTech/localagi,https://github.com/VTSTech/localagi/tree/85ecc246bd50783e9edaa4227493c0ac127912d8,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/perform_task(),"1.Clone the Repository:
+VTSTech/localagi,https://github.com/VTSTech/localagi/tree/85ecc246bd50783e9edaa4227493c0ac127912d8,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/perform_task(),"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -1302,7 +1300,7 @@ VTSTech/localagi,https://github.com/VTSTech/localagi/tree/85ecc246bd50783e9edaa4
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-VTSTech/localagi,https://github.com/VTSTech/localagi/tree/85ecc246bd50783e9edaa4227493c0ac127912d8,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/perform_task(),"(steps to use the script:babyagi.py)
+VTSTech/localagi,https://github.com/VTSTech/localagi/tree/85ecc246bd50783e9edaa4227493c0ac127912d8,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/perform_task(),"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -1362,7 +1360,7 @@ realminchoi/babyagi-langchain,https://github.com/realminchoi/babyagi-langchain/t
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 realminchoi/babyagi-langchain,https://github.com/realminchoi/babyagi-langchain/tree/8173232f8abd09f9b9f8942f0b1cd44327cf66b7,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"babyagi.py/TaskCreationChain, TaskPrioritizationChain","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-realminchoi/babyagi-langchain,https://github.com/realminchoi/babyagi-langchain/tree/8173232f8abd09f9b9f8942f0b1cd44327cf66b7,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/TaskCreationChain,"1.Clone the Repository:
+realminchoi/babyagi-langchain,https://github.com/realminchoi/babyagi-langchain/tree/8173232f8abd09f9b9f8942f0b1cd44327cf66b7,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/TaskCreationChain,"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -1382,7 +1380,7 @@ realminchoi/babyagi-langchain,https://github.com/realminchoi/babyagi-langchain/t
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-realminchoi/babyagi-langchain,https://github.com/realminchoi/babyagi-langchain/tree/8173232f8abd09f9b9f8942f0b1cd44327cf66b7,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_chain,"(steps to use the script:babyagi.py)
+realminchoi/babyagi-langchain,https://github.com/realminchoi/babyagi-langchain/tree/8173232f8abd09f9b9f8942f0b1cd44327cf66b7,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_chain,"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -1442,7 +1440,7 @@ miurla/babyagi-ui,https://github.com/Christopher-Hayes/babyagi-node-js/tree/3f71
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 miurla/babyagi-ui,https://github.com/Christopher-Hayes/babyagi-node-js/tree/3f71b1bd4edea6eb2a063d2ccf540fa309114925,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,src/index.ts,"1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-miurla/babyagi-ui,https://github.com/Christopher-Hayes/babyagi-node-js/tree/3f71b1bd4edea6eb2a063d2ccf540fa309114925,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",src/index.ts,"1.Clone the Repository:
+miurla/babyagi-ui,https://github.com/Christopher-Hayes/babyagi-node-js/tree/3f71b1bd4edea6eb2a063d2ccf540fa309114925,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",src/index.ts,"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -1462,7 +1460,7 @@ miurla/babyagi-ui,https://github.com/Christopher-Hayes/babyagi-node-js/tree/3f71
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-miurla/babyagi-ui,https://github.com/Christopher-Hayes/babyagi-node-js/tree/3f71b1bd4edea6eb2a063d2ccf540fa309114925,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",src/index.ts,"(steps to use the script:babyagi.py)
+miurla/babyagi-ui,https://github.com/Christopher-Hayes/babyagi-node-js/tree/3f71b1bd4edea6eb2a063d2ccf540fa309114925,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",src/index.ts,"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -1522,7 +1520,7 @@ alexdphan/babyagi-chroma-agent,https://github.com/alexdphan/babyagi-chroma-agent
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 alexdphan/babyagi-chroma-agent,https://github.com/alexdphan/babyagi-chroma-agent/tree/a5379280e526fd559c49d3b85513a339afc302e5,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"babyagi-chroma.py/task_creation_chain,task_prioritization_chain","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-alexdphan/babyagi-chroma-agent,https://github.com/alexdphan/babyagi-chroma-agent/tree/a5379280e526fd559c49d3b85513a339afc302e5,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi-chroma.py/task_creation_chain,"1.Clone the Repository:
+alexdphan/babyagi-chroma-agent,https://github.com/alexdphan/babyagi-chroma-agent/tree/a5379280e526fd559c49d3b85513a339afc302e5,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi-chroma.py/task_creation_chain,"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -1542,7 +1540,7 @@ alexdphan/babyagi-chroma-agent,https://github.com/alexdphan/babyagi-chroma-agent
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-alexdphan/babyagi-chroma-agent,https://github.com/alexdphan/babyagi-chroma-agent/tree/a5379280e526fd559c49d3b85513a339afc302e5,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi-chroma.py/execution_chain,"(steps to use the script:babyagi.py)
+alexdphan/babyagi-chroma-agent,https://github.com/alexdphan/babyagi-chroma-agent/tree/a5379280e526fd559c49d3b85513a339afc302e5,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi-chroma.py/execution_chain,"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -1602,7 +1600,7 @@ fendouai/babyagi_zh,https://github.com/fendouai/babyagi_zh/tree/bc907f1d94cd0a6b
 10.After several rounds of task generation, check whether the newly generated task lists ignore the preceding task results."
 fendouai/babyagi_zh,https://github.com/fendouai/babyagi_zh/tree/bc907f1d94cd0a6b57db5f6e2b1d0ffbabf6b864,Incompatible LLM output format,/,Task list numbering continues to reset or get misordered.,IC,"babyagi.py/task_creation_agent(), prioritization_agent()","1.Run the script according to the previously mentioned steps.
 2.Observe whether the generated task list shows any numbering inconsistencies or misorder."
-fendouai/babyagi_zh,https://github.com/fendouai/babyagi_zh/tree/bc907f1d94cd0a6b57db5f6e2b1d0ffbabf6b864,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
+fendouai/babyagi_zh,https://github.com/fendouai/babyagi_zh/tree/bc907f1d94cd0a6b57db5f6e2b1d0ffbabf6b864,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI",babyagi.py/task_creation_agent(),"1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
 2.Install the Required Packages:
@@ -1622,7 +1620,7 @@ fendouai/babyagi_zh,https://github.com/fendouai/babyagi_zh/tree/bc907f1d94cd0a6b
 4.Run the Script:
    python babyagi.py
 5.Observe Tasks and Outcomes"
-fendouai/babyagi_zh,https://github.com/fendouai/babyagi_zh/tree/bc907f1d94cd0a6b57db5f6e2b1d0ffbabf6b864,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
+fendouai/babyagi_zh,https://github.com/fendouai/babyagi_zh/tree/bc907f1d94cd0a6b57db5f6e2b1d0ffbabf6b864,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL",babyagi.py/execution_agent(),"(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
 3.Copy the .env.example file to .env: cp .env.example .env. This is where you will set the following variables.
@@ -1869,7 +1867,7 @@ Enter 'y' to authorise command, 'y -N' to run N continuous commands,�
 Input:y -10
 
 PS.The folder should contain  lots of files."
-Significant-Gravitas/AutoGPT,https://github.com/Significant-Gravitas/AutoGPT/tree/9ef4fab084633e4289226a6dd059a598085ec876,unnecesssary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","autogpt/chat.py
+Significant-Gravitas/AutoGPT,https://github.com/Significant-Gravitas/AutoGPT/tree/9ef4fab084633e4289226a6dd059a598085ec876,unnecessary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","autogpt/chat.py
 autogpt/agent/agent.py","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
 2.Create an AI agent.
 3.Start AutoGPT. Authorize these commands and observe their outputs: 
@@ -1919,7 +1917,7 @@ Significant-Gravitas/AutoGPT,https://github.com/Significant-Gravitas/AutoGPT/tre
  File ""/usr/local/lib/python3.10/site-packages/openai/api_requestor.py"", line 682, in _interpret_response_line
     raise self.handle_error_response(
 openai.error.InvalidRequestError: This model's maximum context length is 8191 tokens, however you requested 15117 tokens (15117 in your prompt; 0 for the completion). Please reduce your prompt; or completion length."
-Significant-Gravitas/AutoGPT,https://github.com/Significant-Gravitas/AutoGPT/tree/9ef4fab084633e4289226a6dd059a598085ec876,conflict knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpt/agent/agent.py
+Significant-Gravitas/AutoGPT,https://github.com/Significant-Gravitas/AutoGPT/tree/9ef4fab084633e4289226a6dd059a598085ec876,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpt/agent/agent.py
 autogpt/memory/context/providers/abstract.py
 autogpt/memory/context/memory_item.py
 ...","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.(use RedisMemory)
@@ -1928,7 +1926,7 @@ autogpt/memory/context/memory_item.py
 4.Perform an action that uses the write_to_file command, specifying a file and some text to write.
 5.Perform an action that uses the append_to_file command, specifying the same file and additional text to append.
 6. Check the contents of the file after each action to see if the text is being overwritten or appended correctly."
-Significant-Gravitas/AutoGPT,https://github.com/Significant-Gravitas/AutoGPT/tree/9ef4fab084633e4289226a6dd059a598085ec876,imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","autogpt/agent/agent.py
+Significant-Gravitas/AutoGPT,https://github.com/Significant-Gravitas/AutoGPT/tree/9ef4fab084633e4289226a6dd059a598085ec876,Imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","autogpt/agent/agent.py
 autogpt/chat.py",The user did not provide specific examples. We can observe AutoGPT's memory performance in its behavior.
 Significant-Gravitas/AutoGPT,https://github.com/Significant-Gravitas/AutoGPT/tree/9ef4fab084633e4289226a6dd059a598085ec876,absence of final output,/,"aught in error loop ""No Text to summary""","IC,ST",autogpt/agent/agent.py/start_interaction_loop(self),"1.(MacOS, Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on v0.2.2 READMe.md
 2. Run AutoGPT in continuous mode.
@@ -1970,34 +1968,29 @@ ai_name: Unity-Dev-GPT
 ai_role: An AI designed to build Video Games, Libraries, Editor Extensions, and Packages for Unity LTS 2021.)
 4.Allow AutoGPT to process the task and check for any JSON format errors or issues with memory handling."
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,insufficient history management,case1,Relevant memory is essentially a duplicate of the conversation（enhancement）,IC,"autogpt/agent/agent.py
-autogpt/llm/chat.py","1.Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
-2.(cli mode)Use the command: ""./autogpt.sh run --help "" to start AutoGPT.
+autogpt/llm/chat.py","1.Complete the environment setup according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
+2.(cli mode)Use the command: ""./autogpt.sh run --help "" to start app.
 3.Set up a task.
-4.Allow AutoGPT to process the task. Wait for a while, check if Auto-GPT loses track of what it's done in the past and starts to repeat actions."
+4.Allow app to process the task. Wait for a while, check if app loses track of what it's done in the past and starts to repeat actions."
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case2,There is no meta data in the memories,IC,"autogpt/prompts/prompt.py
 autogpt/app.py
 autogpt/agent/agent.py
-…","1.Set up and Configure AutoGPT.
-2.Create a Task: Create a task for AutoGPT that is likely to fail or has complex steps prone to errors.
-3.Observe Task Execution:Run the task and let AutoGPT operate for an extended period. Check if It gets stuck in loops because it thinks failed repeated attempts are relevant and therefore should be tried again and again.
+…","1.Set up and Configure app.
+2.Create a Task: Create a task for app that is likely to fail or has complex steps prone to errors.
+3.Observe Task Execution:Run the task and let app operate for an extended period. Check if It gets stuck in loops because it thinks failed repeated attempts are relevant and therefore should be tried again and again.
 "
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,Missing LLM input format validation,/,"
-UTF8 files unsupported",IC,autogpt/commands/file_operations.py,"1.Complete the environment setup for AutoGPT according to the instructions on v0.2.2 READMe.md
-2. Run AutoGPT.
-(Prompts:
-ai_goals:
-- Read project-plan-form.htm file 
-- Fill project-plan-form.htm for and idea with flying monkeys
-ai_name: DocWritter
-ai_role: Fill in a doc using a file template)
-3.Authorize and wait for the result of the ""read_file ARGUMENTS = {'file': 'project-plan-form.htm'}"" command, which will cause an error: ""Command read_file returned: Error: 'utf-8' codec can't decode byte 0xa0 in position 1341: invalid start byte ""."
-FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,exceeding  LLM content limit,case1,"AutoGPT incorrectly interprets the ""429 Too Many Requests"" error as rate limiting, when it is actually due to insufficient API quota from OpenAI's new prepay billing method.",ST,autogpt/llm/providers/openai.py,"1.Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
-2.(cli mode)Use the command: ""./autogpt.sh --continuous"" to start AutoGPT in continuous mode.
+UTF8 files unsupported",IC,autogpt/commands/file_operations.py,"1.Set up and Configure app.
+2.Create a Task: Create a task for app that is likely to fail or has complex steps prone to errors.
+3.Observe Task Execution:Run the task and let app operate for an extended period. Check if It gets stuck in loops because it thinks failed repeated attempts are relevant and therefore should be tried again and again.
++H266"
+FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,exceeding  LLM content limit,case1,"AutoGPT incorrectly interprets the ""429 Too Many Requests"" error as rate limiting, when it is actually due to insufficient API quota from OpenAI's new prepay billing method.",ST,autogpt/llm/providers/openai.py,"1.Complete the environment setup for app according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
+2.(cli mode)Use the command: ""./autogpt.sh --continuous"" to start app in continuous mode.
 3.Simulate API Quota Depletion:Ensure that your OpenAI API quota is depleted. This can be done by using up your available credits or not having sufficient pre-paid balance on your OpenAI account.
-4.Allow AutoGPT to make several API requests to OpenAI, which will result in ""429 Too Many Requests"" errors due to the depleted API quota.
+4.Allow app to make several API requests to OpenAI, which will result in ""429 Too Many Requests"" errors due to the depleted API quota.
 "
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case2,"AutoGPT encounters a ""Please reduce the length of the messages or completion"" error due to exceeding the token limit, even with small tasks","ST,IC","autogpt/llm/chat.py/count_message_tokens()
-autogpt/llm/base.py","1.Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
+autogpt/llm/base.py","1.Complete the environment setup for app according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
 (Open .env, set USE_AZURE to True and make an Azure configuration file.Rename azure.yaml.template to azure.yaml and provide the relevant azure_api_base, azure_api_version and deployment IDs for the models that you want to use. All these are also included in https://docs.agpt.co/autogpt/setup/)
 2.(cli mode)Use the command: ""./autogpt.sh --continuous"" to start AutoGPT in continuous mode.
 3.Set up a simple task as blow:
@@ -2007,14 +2000,14 @@ autogpt/llm/base.py","1.Complete the environment setup for AutoGPT accordi
   API Budget: infinite
 4.Allow AutoGPT to process the task and observe if the token length error occurs."
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case3,openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens,ST,"autogpt/memory_management/summary_memory.py/update_running_summary, summarize_batch
-","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
+","1.Configure and launch app according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
 2.Create an AI agent.
 3.Set up a task(Building a business plan)
 4. Return this error, and program exits: openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens. However, your messages resulted in 10134 tokens. Please reduce the length of the messages."
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case3,COMMAND = list_files - openai.error.InvalidRequestError: This model's maximum context length is 4097 ,"ST,IC","autogpt/llm/api_manager.py/create_chat_completion()
-autogpt/llm/chat.py","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.4.0)
+autogpt/llm/chat.py","1.Configure and launch app according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.4.0)
 2.Create an AI agent.
-3.Start AutoGPT. Authorize the forlowing command and observe its outputs: 
+3.Start app. Authorize the forlowing command and observe its outputs: 
 list_files ARGUMENTS = {'directory': '....\auto_gpt_workspace'} --> openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens
 "
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case4,Maximum context length exceeded after get_hyperlinks ,"ST,IC","autogpt/config/config.py
@@ -2167,15 +2160,15 @@ Enter 'y' to authorise command, 'y -N' to run N continuous commands,�
 Input:y -10
 
 PS.The folder should contain  lots of files."
-FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,unnecesssary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","autogpt/llm/chat.py
-autogpt/agent/agent.py","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
+FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,unnecessary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","autogpt/llm/chat.py
+autogpt/agent/agent.py","1.Configure and launch app according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
 2.Create an AI agent.
 3.Start AutoGPT. Authorize these commands and observe their outputs: 
 (1) list_files ARGUMENTS = {'directory': '....\auto_gpt_workspace'} --> SYSTEM: Failure: command list_files returned too much output. Do not execute this command again with the same arguments.
 (2)read_file ARGUMENTS = {'filename': '...smoketests_basic_qemu.yml'} --> SYSTEM: Failure: command read_file returned too much output. Do not execute this command again with the same arguments.
 "
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case2,Missing space and spelling correction in feedback from Auto-GPT. ,IC,"autogpt/agent/agent.py/start_interaction_loop(self)
-(Releases before v0.3.0)","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.
+(Releases before v0.3.0)","1.Configure and launch app according to the instructions on this website: https://docs.agpt.co/.
 2.Create an AI agent.
 3.Set up a task, let AutoGPT enter its interactive loop. Use any command that generates the following info:
 Enter 'y' to authorise command, 'y -N' to run N continuous commands, 's' to run self-feedback commands'n' to exit program, or enter feedback for ..."
@@ -2197,59 +2190,59 @@ FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9b
 
 4.Used a design.txt file to tell it how it's supposed to work (the content of design.txt see: https://github.com/Significant-Gravitas/AutoGPT/issues/2076)
 5.Auto-GPT failed to use pre-seeded data at all and went ahead and downloaded the main repo to /Auto-GPT/auto_gpt_workspace folder to gather data."
-FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case2,ignoring small files in split_file,IC,autogpt/commands/file_operations.py/split_file,"1.Configure and start Auto-GPT.
+FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case2,ignoring small files in split_file,IC,autogpt/commands/file_operations.py/split_file,"1.Configure and start app.
 2.Make a file of around 126 characters.
 3.Run data_ingestion.py on a file, using the ""local"" memory backend. Also edit the file to fix Auto GPT data_ingestion is not working(Added the line: cfg.workspace_path = Path(file).parent / ""autogpt/auto_gpt_workspace"" to data_ingestion.py) and target auto-gpt.json in the workspace (this is where AutoGPT generates it if absent).
 4.Check the auto-gpt.json file. It will not have any contents.
 5.Check the console logs. They will indicate that 0 chunks were saved.
 6.Copy some text into the file being ingested, to bring it to around 1198 characters, and re-run data_ingestion.py
 7.This iteration has 1 chunk and changes the auto-gpt.json file."
-FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case3,"When file is too small, data_ingestion.py doesn't add to memory",IC,autogpt/commands/file_operations.py/split_file,"1.Configure and start Auto-GPT.
+FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case3,"When file is too small, data_ingestion.py doesn't add to memory",IC,autogpt/commands/file_operations.py/split_file,"1.Configure and start app.
 2.Make a file of around 126 characters.
 3.Run data_ingestion.py on a file, using the ""local"" memory backend. Also edit the file to fix Auto GPT data_ingestion is not working(Added the line: cfg.workspace_path = Path(file).parent / ""autogpt/auto_gpt_workspace"" to data_ingestion.py) and target auto-gpt.json in the workspace (this is where AutoGPT generates it if absent).
 4.Check the auto-gpt.json file. It will not have any contents.
 5.Check the console logs. They will indicate that 0 chunks were saved.
 6.Copy some text into the file being ingested, to bring it to around 1198 characters, and re-run data_ingestion.py
 7.This iteration has 1 chunk and changes the auto-gpt.json file."
-FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case4,Fix split file to handle edge case where overlap size > last chunk size ,IC,autogpt/commands/file_operations.py/split_file(),"1.Complete the environment setup for AutoGPT(v<=0.2.1)
-2. Run AutoGPT. Ask AutoGPT to read a file. (The file should not be too big)
+FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,,case4,Fix split file to handle edge case where overlap size > last chunk size ,IC,autogpt/commands/file_operations.py/split_file(),"1.Complete the environment setup for app(v<=0.2.1)
+2. Run app. Ask app to read a file. (The file should not be too big)
 3.Authorize and wait for the result, which may lead to the error: 
  File ""/usr/local/lib/python3.10/site-packages/openai/api_requestor.py"", line 682, in _interpret_response_line
     raise self.handle_error_response(
 openai.error.InvalidRequestError: This model's maximum context length is 8191 tokens, however you requested 15117 tokens (15117 in your prompt; 0 for the completion). Please reduce your prompt; or completion length."
-FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,conflict knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpt/agent/agent.py
+FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpt/agent/agent.py
 autogpt/llm/llm_utils.py
 autogpt/memory_management/store_memory.py
-...","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.(use RedisMemory)
+...","1.Configure and launch app according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.(use RedisMemory)
 2.Create an AI agent with a specific role and goals. (Role: an AI agent that specializes in Cisco ACI fabrics and provides expert guidance on the usage of VxLAN technology to enable efficient communication between endpoints in a data center network. Goals: Explain the benefits of VxLAN technology in Cisco ACI fabrics, including increased scalability, flexibility, and network virtualization.)
 3.Configure the memory type to RedisMemory.
 4.Perform an action that uses the write_to_file command, specifying a file and some text to write.
 5.Perform an action that uses the append_to_file command, specifying the same file and additional text to append.
 6. Check the contents of the file after each action to see if the text is being overwritten or appended correctly."
-FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","autogpt/agent/agent.py
-autogpt/chat.py",The user did not provide specific examples. We can observe AutoGPT's memory performance in its behavior.
-FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,absence of final output,/,"aught in error loop ""No Text to summary""","IC,ST",autogpt/agent/agent.py/start_interaction_loop(self),"1.(MacOS, Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on v0.2.2 READMe.md
-2. Run AutoGPT in continuous mode.
-3.Let Auto GPT execute ""browse_website"" command  to collect information from the web about a specific topic. The webpage you directed AutoGPT to browse has no text to summarize or contains other page errors.
-4.Observe if AutoGPT enters a loop that after a webpage browsing failure，it restarts the Google search, lands on the same page, and starts the search over, only to land on the page again."
+FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,Imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","autogpt/agent/agent.py
+autogpt/chat.py",The user did not provide specific examples. We can observe app's memory performance in its behavior.
+FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,absence of final output,/,"aught in error loop ""No Text to summary""","IC,ST",autogpt/agent/agent.py/start_interaction_loop(self),"1.(MacOS, Set up with Docker)Complete the environment setup for app according to the instructions on v0.2.2 READMe.md
+2. Run app in continuous mode.
+3.Let app execute ""browse_website"" command  to collect information from the web about a specific topic. The webpage you directed AutoGPT to browse has no text to summarize or contains other page errors.
+4.Observe if app enters a loop that after a webpage browsing failure，it restarts the Google search, lands on the same page, and starts the search over, only to land on the page again."
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,low-frequency interactivity,/,"
-If you do not interact with Auto-GPT frequently enough you will get an API error when you resume.","IC,UI",AutoGPT/forge/forge/llm/providers/openai.py,"1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
-2.In manual mode, do not interact with Auto-GPT for ""a long time"" (3 hours for example).
-3.Try to interact with Auto-GPT again and observe if you encounter any API errors or connection timeouts."
+If you do not interact with Auto-GPT frequently enough you will get an API error when you resume.","IC,UI",AutoGPT/forge/forge/llm/providers/openai.py,"1.Configure and launch app according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
+2.In manual mode, do not interact with app for ""a long time"" (3 hours for example).
+3.Try to interact with app again and observe if you encounter any API errors or connection timeouts."
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,privacy violation,/,"By default, AutoGPT can access the user's browser.",IS,".env (settings)
 AutoGPT/forge/forge/components/web
 /search.py
-","1.Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
+","1.Complete the environment setup for app according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
 (Use default Settings)
 2.(cli mode)Use the command: ""./autogpt.sh run --help "" to start AutoGPT.
 3.Set up a task, which involves web browsing and searching.
-4.Allow AutoGPT to process the task and check if AutoGPT accesses the browser without user consent."
+4.Allow app to process the task and check if AutoGPT accesses the browser without user consent."
 FOLLGAD/Godmode-GPT,https://github.com/FOLLGAD/Godmode-GPT/tree/4e1dc7055580ab9bb3ce85114f9e17950ac96d7b,inefficient memory management,/,Memory Feature seems to not work on gpt3only mode,IC,"1. .env: set
 SMART_LLM_MODEL=""gpt-3.5-turbo""
 FAST_LLM_MODEL=""gpt-3.5-turbo""
 
-2. AutoGPT/forge/forge/agent, file_storage","1.Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
-(Set API Keys for OpenAI, Pinecone, and Eleven Labs, then set the smart model to gpt-3.5-turbo)
+2. AutoGPT/forge/forge/agent, file_storage","1.Complete the environment setup for app according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
+(Set API Keys for app, Pinecone, and Eleven Labs, then set the smart model to gpt-3.5-turbo)
 2.(cli mode)Use the command: ""call python ./scripts/main.py --gpt3only --debug"" to start AutoGPT with the --gpt3only option.
 3.Prompt GPT to be a developer, and give it the goal to load a design document text file into long term memory. and the additional goals to develop the project.
 (Prompt: 
@@ -2268,7 +2261,7 @@ ai_name: Unity-Dev-GPT
 ai_role: An AI designed to build Video Games, Libraries, Editor Extensions, and Packages for Unity LTS 2021.)
 4.Allow AutoGPT to process the task and check for any JSON format errors or issues with memory handling."
 BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,insufficient history management,case1,Relevant memory is essentially a duplicate of the conversation（enhancement）,IC,"autogpt/agent/agent.py
-autogpt/chat.py","1.Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
+autogpt/chat.py","1.Complete the environment setup for app according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
 2.(cli mode)Use the command: ""./autogpt.sh run --help "" to start AutoGPT.
 3.Set up a task.
 4.Allow AutoGPT to process the task. Wait for a while, check if Auto-GPT loses track of what it's done in the past and starts to repeat actions."
@@ -2277,13 +2270,13 @@ BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18
 autogpt/prompt.py
 autogpt/app.py
 autogpt/agents/agent.py
-...","1.Set up and Configure AutoGPT.
+...","1.Set up and Configure app.
 2.Create a Task: Create a task for AutoGPT that is likely to fail or has complex steps prone to errors.
 3.Observe Task Execution:Run the task and let AutoGPT operate for an extended period. Check if It gets stuck in loops because it thinks failed repeated attempts are relevant and therefore should be tried again and again.
 "
 BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,Missing LLM input format validation,/,"
-UTF8 files unsupported",IC,autogpt/commands/file_operations.py/read_file(),"1.Complete the environment setup for AutoGPT according to the instructions on v0.2.2 READMe.md
-2. Run AutoGPT.
+UTF8 files unsupported",IC,autogpt/commands/file_operations.py/read_file(),"1.Complete the environment setup for app according to the instructions on v0.2.2 READMe.md
+2. Run app.
 (Prompts:
 ai_goals:
 - Read project-plan-form.htm file 
@@ -2291,10 +2284,10 @@ ai_goals:
 ai_name: DocWritter
 ai_role: Fill in a doc using a file template)
 3.Authorize and wait for the result of the ""read_file ARGUMENTS = {'file': 'project-plan-form.htm'}"" command, which will cause an error: ""Command read_file returned: Error: 'utf-8' codec can't decode byte 0xa0 in position 1341: invalid start byte ""."
-BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,exceeding  LLM content limit,case1,"AutoGPT incorrectly interprets the ""429 Too Many Requests"" error as rate limiting, when it is actually due to insufficient API quota from OpenAI's new prepay billing method.",ST,AutoGPT/forge/forge/llm/providers/openai.py,"1.Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
+BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,exceeding  LLM content limit,case1,"AutoGPT incorrectly interprets the ""429 Too Many Requests"" error as rate limiting, when it is actually due to insufficient API quota from OpenAI's new prepay billing method.",ST,AutoGPT/forge/forge/llm/providers/openai.py,"1.Complete the environment setup for app according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
 2.(cli mode)Use the command: ""./autogpt.sh --continuous"" to start AutoGPT in continuous mode.
 3.Simulate API Quota Depletion:Ensure that your OpenAI API quota is depleted. This can be done by using up your available credits or not having sufficient pre-paid balance on your OpenAI account.
-4.Allow AutoGPT to make several API requests to OpenAI, which will result in ""429 Too Many Requests"" errors due to the depleted API quota.
+4.Allow app to make several API requests to OpenAI, which will result in ""429 Too Many Requests"" errors due to the depleted API quota.
 "
 BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,,case2,"AutoGPT encounters a ""Please reduce the length of the messages or completion"" error due to exceeding the token limit, even with small tasks","ST,IC","AutoGPT/forge/forge/llm/providers/openai.py/count_message_tokens(), _get_chat_completion_args
 autogpt/llm/base.py","1.Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
@@ -2467,7 +2460,7 @@ Enter 'y' to authorise command, 'y -N' to run N continuous commands,�
 Input:y -10
 
 PS.The folder should contain  lots of files."
-BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,unnecesssary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","autogpt/chat.py
+BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,unnecessary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","autogpt/chat.py
 autogpt/agent/agent.py","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
 2.Create an AI agent.
 3.Start AutoGPT. Authorize these commands and observe their outputs: 
@@ -2517,7 +2510,7 @@ BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18
  File ""/usr/local/lib/python3.10/site-packages/openai/api_requestor.py"", line 682, in _interpret_response_line
     raise self.handle_error_response(
 openai.error.InvalidRequestError: This model's maximum context length is 8191 tokens, however you requested 15117 tokens (15117 in your prompt; 0 for the completion). Please reduce your prompt; or completion length."
-BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,conflict knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpt/agent/agent.py
+BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpt/agent/agent.py
 autogpt/memory/context/providers/abstract.py
 autogpt/memory/context/memory_item.py
 ...","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.(use RedisMemory)
@@ -2526,7 +2519,7 @@ autogpt/memory/context/memory_item.py
 4.Perform an action that uses the write_to_file command, specifying a file and some text to write.
 5.Perform an action that uses the append_to_file command, specifying the same file and additional text to append.
 6. Check the contents of the file after each action to see if the text is being overwritten or appended correctly."
-BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","autogpt/agent/agent.py
+BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,Imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","autogpt/agent/agent.py
 autogpt/chat.py",The user did not provide specific examples. We can observe AutoGPT's memory performance in its behavior.
 BillSchumacher/Auto-GPT,https://github.com/BillSchumacher/Auto-GPT/tree/bdd07b18bea674cf756ebfb3a0a8915042d9126f,absence of final output,/,"aught in error loop ""No Text to summary""","IC,ST",autogpt/agent/agent.py/start_interaction_loop(self),"1.(MacOS, Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on v0.2.2 READMe.md
 2. Run AutoGPT in continuous mode.
@@ -2767,7 +2760,7 @@ Enter 'y' to authorise command, 'y -N' to run N continuous commands,�
 Input:y -10
 
 PS.The folder should contain  lots of files."
-amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tree/cea68df18f309b094912bdaa6ce2cd484dca5a13,unnecesssary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","autogpt/chat.py
+amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tree/cea68df18f309b094912bdaa6ce2cd484dca5a13,unnecessary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","autogpt/chat.py
 autogpt/agent/agent.py","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
 2.Create an AI agent.
 3.Start AutoGPT. Authorize these commands and observe their outputs: 
@@ -2779,7 +2772,7 @@ amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tre
 2.Create an AI agent.
 3.Set up a task, let AutoGPT enter its interactive loop. Use any command that generates the following info:
 Enter 'y' to authorise command, 'y -N' to run N continuous commands, 's' to run self-feedback commands'n' to exit program, or enter feedback for ..."
-amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tree/cea68df18f309b094912bdaa6ce2cd484dca5a13,knowledge misalignment,case1,5. Failing to use pre-seeded data and/or chunk a large JSON file,"ST,IC",AutoGPT/forge/forge/components/context/context.py,"1.(Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
+amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tree/cea68df18f309b094912bdaa6ce2cd484dca5a13,knowledge misalignment,case1,Failing to use pre-seeded data and/or chunk a large JSON file,"ST,IC",AutoGPT/forge/forge/components/context/context.py,"1.(Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
 2.Started a fresh redis server in docker and pre-seeded the issues_data.json (see https://github.com/Significant-Gravitas/AutoGPT/issues/2076) file to redis with:
 ""python data_ingestion.py --f issues_data.json --init --overlap 300 --max_length 3000""
 3.Start Autogpt with: 'python -m autogpt'
@@ -2817,7 +2810,7 @@ amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tre
  File ""/usr/local/lib/python3.10/site-packages/openai/api_requestor.py"", line 682, in _interpret_response_line
     raise self.handle_error_response(
 openai.error.InvalidRequestError: This model's maximum context length is 8191 tokens, however you requested 15117 tokens (15117 in your prompt; 0 for the completion). Please reduce your prompt; or completion length."
-amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tree/cea68df18f309b094912bdaa6ce2cd484dca5a13,conflict knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpt/agent/agent.py
+amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tree/cea68df18f309b094912bdaa6ce2cd484dca5a13,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpt/agent/agent.py
 autogpt/memory/context/providers/abstract.py
 autogpt/memory/context/memory_item.py
 ...","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.(use RedisMemory)
@@ -2826,7 +2819,7 @@ autogpt/memory/context/memory_item.py
 4.Perform an action that uses the write_to_file command, specifying a file and some text to write.
 5.Perform an action that uses the append_to_file command, specifying the same file and additional text to append.
 6. Check the contents of the file after each action to see if the text is being overwritten or appended correctly."
-amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tree/cea68df18f309b094912bdaa6ce2cd484dca5a13,imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","autogpt/agent/agent.py
+amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tree/cea68df18f309b094912bdaa6ce2cd484dca5a13,Imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","autogpt/agent/agent.py
 autogpt/chat.py",The user did not provide specific examples. We can observe AutoGPT's memory performance in its behavior.
 amauryfischer/Auto-GPT-WebUI,https://github.com/amauryfischer/Auto-GPT-WebUI/tree/cea68df18f309b094912bdaa6ce2cd484dca5a13,absence of final output,/,"aught in error loop ""No Text to summary""","IC,ST",autogpt/agent/agent.py/start_interaction_loop(self),"1.(MacOS, Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on v0.2.2 READMe.md
 2. Run AutoGPT in continuous mode.
@@ -3083,7 +3076,7 @@ Enter 'y' to authorise command, 'y -N' to run N continuous commands,�
 Input:y -10
 
 PS.The folder should contain  lots of files."
-ATheorell/AutoGPTArenaHack,https://github.com/ATheorell/AutoGPTArenaHack/tree/1e4f2dc004b92b9f236543674f94fb9f0af9bb2e,unnecesssary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI",autogpts/forge/forge/agent.py,"1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
+ATheorell/AutoGPTArenaHack,https://github.com/ATheorell/AutoGPTArenaHack/tree/1e4f2dc004b92b9f236543674f94fb9f0af9bb2e,unnecessary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI",autogpts/forge/forge/agent.py,"1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
 2.Create an AI agent.
 3.Start AutoGPT. Authorize these commands and observe their outputs: 
 (1) list_files ARGUMENTS = {'directory': '....\auto_gpt_workspace'} --> SYSTEM: Failure: command list_files returned too much output. Do not execute this command again with the same arguments.
@@ -3131,14 +3124,14 @@ ATheorell/AutoGPTArenaHack,https://github.com/ATheorell/AutoGPTArenaHack/tree/1e
  File ""/usr/local/lib/python3.10/site-packages/openai/api_requestor.py"", line 682, in _interpret_response_line
     raise self.handle_error_response(
 openai.error.InvalidRequestError: This model's maximum context length is 8191 tokens, however you requested 15117 tokens (15117 in your prompt; 0 for the completion). Please reduce your prompt; or completion length."
-ATheorell/AutoGPTArenaHack,https://github.com/ATheorell/AutoGPTArenaHack/tree/1e4f2dc004b92b9f236543674f94fb9f0af9bb2e,conflict knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpts/forge/forge/agent.py
+ATheorell/AutoGPTArenaHack,https://github.com/ATheorell/AutoGPTArenaHack/tree/1e4f2dc004b92b9f236543674f94fb9f0af9bb2e,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"autogpts/forge/forge/agent.py
 ","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.(use RedisMemory)
 2.Create an AI agent with a specific role and goals. (Role: an AI agent that specializes in Cisco ACI fabrics and provides expert guidance on the usage of VxLAN technology to enable efficient communication between endpoints in a data center network. Goals: Explain the benefits of VxLAN technology in Cisco ACI fabrics, including increased scalability, flexibility, and network virtualization.)
 3.Configure the memory type to RedisMemory.
 4.Perform an action that uses the write_to_file command, specifying a file and some text to write.
 5.Perform an action that uses the append_to_file command, specifying the same file and additional text to append.
 6. Check the contents of the file after each action to see if the text is being overwritten or appended correctly."
-ATheorell/AutoGPTArenaHack,https://github.com/ATheorell/AutoGPTArenaHack/tree/1e4f2dc004b92b9f236543674f94fb9f0af9bb2e,imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL",autogpts/forge/forge/agent.py,The user did not provide specific examples. We can observe AutoGPT's memory performance in its behavior.
+ATheorell/AutoGPTArenaHack,https://github.com/ATheorell/AutoGPTArenaHack/tree/1e4f2dc004b92b9f236543674f94fb9f0af9bb2e,Imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL",autogpts/forge/forge/agent.py,The user did not provide specific examples. We can observe AutoGPT's memory performance in its behavior.
 ATheorell/AutoGPTArenaHack,https://github.com/ATheorell/AutoGPTArenaHack/tree/1e4f2dc004b92b9f236543674f94fb9f0af9bb2e,absence of final output,/,"aught in error loop ""No Text to summary""","IC,ST",autogpts/forge/forge/agent.py,"1.(MacOS, Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on v0.2.2 READMe.md
 2. Run AutoGPT in continuous mode.
 3.Let Auto GPT execute ""browse_website"" command  to collect information from the web about a specific topic. The webpage you directed AutoGPT to browse has no text to summarize or contains other page errors.
@@ -3361,7 +3354,7 @@ Enter 'y' to authorise command, 'y -N' to run N continuous commands,�
 Input:y -10
 
 PS.The folder should contain  lots of files."
-catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/2f8066fb4121ba0f724cbe92c4cbef91ecf5cc29,unnecesssary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","scripts/chat.py
+catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/2f8066fb4121ba0f724cbe92c4cbef91ecf5cc29,unnecessary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","scripts/chat.py
 scripts/agent_manager.py","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
 2.Create an AI agent.
 3.Start AutoGPT. Authorize these commands and observe their outputs: 
@@ -3410,7 +3403,7 @@ catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/
  File ""/usr/local/lib/python3.10/site-packages/openai/api_requestor.py"", line 682, in _interpret_response_line
     raise self.handle_error_response(
 openai.error.InvalidRequestError: This model's maximum context length is 8191 tokens, however you requested 15117 tokens (15117 in your prompt; 0 for the completion). Please reduce your prompt; or completion length."
-catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/2f8066fb4121ba0f724cbe92c4cbef91ecf5cc29,conflict knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"scripts/agent_manager.py
+catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/2f8066fb4121ba0f724cbe92c4cbef91ecf5cc29,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"scripts/agent_manager.py
 scripts/memory.py
 scripts/commands.py","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.(use RedisMemory)
 2.Create an AI agent with a specific role and goals. (Role: an AI agent that specializes in Cisco ACI fabrics and provides expert guidance on the usage of VxLAN technology to enable efficient communication between endpoints in a data center network. Goals: Explain the benefits of VxLAN technology in Cisco ACI fabrics, including increased scalability, flexibility, and network virtualization.)
@@ -3418,7 +3411,7 @@ scripts/commands.py","1.Configure and launch Auto-GPT according to the in
 4.Perform an action that uses the write_to_file command, specifying a file and some text to write.
 5.Perform an action that uses the append_to_file command, specifying the same file and additional text to append.
 6. Check the contents of the file after each action to see if the text is being overwritten or appended correctly."
-catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/2f8066fb4121ba0f724cbe92c4cbef91ecf5cc29,imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","scripts/agent_manager.py
+catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/2f8066fb4121ba0f724cbe92c4cbef91ecf5cc29,Imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","scripts/agent_manager.py
 scripts/chat.py",The user did not provide specific examples. We can observe AutoGPT's memory performance in its behavior.
 catid/Supercharger-Auto-GPT,https://github.com/catid/Supercharger-Auto-GPT/tree/2f8066fb4121ba0f724cbe92c4cbef91ecf5cc29,absence of final output,/,"aught in error loop ""No Text to summary""","IC,ST",scripts/agent_manager.py,"1.(MacOS, Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on v0.2.2 READMe.md
 2. Run AutoGPT in continuous mode.
@@ -3644,7 +3637,7 @@ Enter 'y' to authorise command, 'y -N' to run N continuous commands,�
 Input:y -10
 
 PS.The folder should contain  lots of files."
-edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/2b4bf189825c0abe28bf6f020b87921d82636d67,unnecesssary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","scripts/chat.py
+edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/2b4bf189825c0abe28bf6f020b87921d82636d67,unnecessary LLM output,case1,Failure: command list_files and read_file returned too much output.,"IC,UI","scripts/chat.py
 scripts/agent_manager.py","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/.(Use releases before v0.5.0)
 2.Create an AI agent.
 3.Start AutoGPT. Authorize these commands and observe their outputs: 
@@ -3655,7 +3648,7 @@ edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/
 2.Create an AI agent.
 3.Set up a task, let AutoGPT enter its interactive loop. Use any command that generates the following info:
 Enter 'y' to authorise command, 'y -N' to run N continuous commands, 's' to run self-feedback commands'n' to exit program, or enter feedback for ..."
-edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/2b4bf189825c0abe28bf6f020b87921d82636d67,knowledge misalignment,case1,5. Failing to use pre-seeded data and/or chunk a large JSON file,"ST,IC",scripts/chat.py,"1.(Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
+edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/2b4bf189825c0abe28bf6f020b87921d82636d67,knowledge misalignment,case1,Failing to use pre-seeded data and/or chunk a large JSON file,"ST,IC",scripts/chat.py,"1.(Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.
 2.Started a fresh redis server in docker and pre-seeded the issues_data.json (see https://github.com/Significant-Gravitas/AutoGPT/issues/2076) file to redis with:
 ""python data_ingestion.py --f issues_data.json --init --overlap 300 --max_length 3000""
 3.Start Autogpt with: 'python -m autogpt'
@@ -3693,7 +3686,7 @@ edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/
  File ""/usr/local/lib/python3.10/site-packages/openai/api_requestor.py"", line 682, in _interpret_response_line
     raise self.handle_error_response(
 openai.error.InvalidRequestError: This model's maximum context length is 8191 tokens, however you requested 15117 tokens (15117 in your prompt; 0 for the completion). Please reduce your prompt; or completion length."
-edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/2b4bf189825c0abe28bf6f020b87921d82636d67,conflict knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"scripts/agent_manager.py
+edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/2b4bf189825c0abe28bf6f020b87921d82636d67,conflicting knowledge entries,/,AutoGPT overwrites same text file with each action instead of appending to the end.,IC,"scripts/agent_manager.py
 scripts/memory.py
 scripts/commands.py","1.Configure and launch Auto-GPT according to the instructions on this website: https://docs.agpt.co/autogpt/setup/.(use RedisMemory)
 2.Create an AI agent with a specific role and goals. (Role: an AI agent that specializes in Cisco ACI fabrics and provides expert guidance on the usage of VxLAN technology to enable efficient communication between endpoints in a data center network. Goals: Explain the benefits of VxLAN technology in Cisco ACI fabrics, including increased scalability, flexibility, and network virtualization.)
@@ -3701,7 +3694,7 @@ scripts/commands.py","1.Configure and launch Auto-GPT according to the in
 4.Perform an action that uses the write_to_file command, specifying a file and some text to write.
 5.Perform an action that uses the append_to_file command, specifying the same file and additional text to append.
 6. Check the contents of the file after each action to see if the text is being overwritten or appended correctly."
-edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/2b4bf189825c0abe28bf6f020b87921d82636d67,imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","scripts/agent_manager.py
+edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/2b4bf189825c0abe28bf6f020b87921d82636d67,Imprecise knowledge retrieval,/,Add Recency and Importance for Memory Retrieval,"IC,SL","scripts/agent_manager.py
 scripts/chat.py",The user did not provide specific examples. We can observe AutoGPT's memory performance in its behavior.
 edik7333/Auto-GPT-llama-cpp,https://github.com/edik7333/Auto-GPT-llama-cpp/tree/2b4bf189825c0abe28bf6f020b87921d82636d67,absence of final output,/,"aught in error loop ""No Text to summary""","IC,ST",scripts/agent_manager.py,"1.(MacOS, Set up with Docker)Complete the environment setup for AutoGPT according to the instructions on v0.2.2 READMe.md
 2. Run AutoGPT in continuous mode.
@@ -3764,7 +3757,7 @@ Josh-XT/AGiXT,https://github.com/Josh-XT/AGiXT/tree/de7d913b2853708b9f9d4e7127ea
 1.Set maximum token to 2000 in the Agent-LLM .env.
 2.Make an API request to Oobabooga.
 3.Obverse in the Oobabooga log that the context size is 2096."
-Josh-XT/AGiXT,https://github.com/Josh-XT/AGiXT/tree/de7d913b2853708b9f9d4e7127ea48bca80865b9,imprecise knowledge retrieval,/,Unable to retrieve data ,"CL,SL",agixt/XT.py,"1.Setup with docker.  (Local)
+Josh-XT/AGiXT,https://github.com/Josh-XT/AGiXT/tree/de7d913b2853708b9f9d4e7127ea48bca80865b9,Imprecise knowledge retrieval,/,Unable to retrieve data ,"CL,SL",agixt/XT.py,"1.Setup with docker.  (Local)
 2.Run Gen and run Task Chain."
 Josh-XT/AGiXT,https://github.com/Josh-XT/AGiXT/tree/de7d913b2853708b9f9d4e7127ea48bca80865b9,low-frequency interactivity,/,Local ChatGPT server connection randomly timing out,SL,(switch the provider to custom fixes this),"1.Locally run an OpenAI compatible API (Preferably RWKV Runner). See https://agixt.com/ for instructions.
 2.Setup the agent
@@ -3813,7 +3806,7 @@ hlohaus/Agent-LLM,https://github.com/hlohaus/Agent-LLM/tree/d8a46dacea35c6224eff
 1.Set maximum token to 2000 in the Agent-LLM .env.
 2.Make an API request to Oobabooga.
 3.Obverse in the Oobabooga log that the context size is 2096."
-hlohaus/Agent-LLM,https://github.com/hlohaus/Agent-LLM/tree/d8a46dacea35c6224effd3e733d5c085bea1949a,imprecise knowledge retrieval,/,Unable to retrieve data ,"CL,SL",commands/google.py,"1.Setup with docker.  (Local)
+hlohaus/Agent-LLM,https://github.com/hlohaus/Agent-LLM/tree/d8a46dacea35c6224effd3e733d5c085bea1949a,Imprecise knowledge retrieval,/,Unable to retrieve data ,"CL,SL",commands/google.py,"1.Setup with docker.  (Local)
 2.Run Gen and run Task Chain."
 hlohaus/Agent-LLM,https://github.com/hlohaus/Agent-LLM/tree/d8a46dacea35c6224effd3e733d5c085bea1949a,low-frequency interactivity,/,Local ChatGPT server connection randomly timing out,SL,(switch the provider to custom fixes this),"1.Locally run an OpenAI compatible API (Preferably RWKV Runner). See https://agixt.com/ for instructions.
 2.Setup the agent
@@ -3862,7 +3855,7 @@ CloudDevStudios/Agent-LLM,https://github.com/CloudDevStudios/Agent-LLM/tree/f89a
 1.Set maximum token to 2000 in the Agent-LLM .env.
 2.Make an API request to Oobabooga.
 3.Obverse in the Oobabooga log that the context size is 2096."
-CloudDevStudios/Agent-LLM,https://github.com/CloudDevStudios/Agent-LLM/tree/f89aaebd761a4d016b8a61ee511330f5ed403fe9,imprecise knowledge retrieval,/,Unable to retrieve data ,"CL,SL",commands/google.py,"1.Setup with docker.  (Local)
+CloudDevStudios/Agent-LLM,https://github.com/CloudDevStudios/Agent-LLM/tree/f89aaebd761a4d016b8a61ee511330f5ed403fe9,Imprecise knowledge retrieval,/,Unable to retrieve data ,"CL,SL",commands/google.py,"1.Setup with docker.  (Local)
 2.Run Gen and run Task Chain."
 CloudDevStudios/Agent-LLM,https://github.com/CloudDevStudios/Agent-LLM/tree/f89aaebd761a4d016b8a61ee511330f5ed403fe9,low-frequency interactivity,/,Local ChatGPT server connection randomly timing out,SL,(switch the provider to custom fixes this),"1.Locally run an OpenAI compatible API (Preferably RWKV Runner). See https://agixt.com/ for instructions.
 2.Setup the agent
@@ -4056,10 +4049,10 @@ labring/FastGPT,https://github.com/labring/FastGPT/tree/05bf1b22653f8699b85098db
 labring/FastGPT,https://github.com/labring/FastGPT/tree/05bf1b22653f8699b85098db3e86a7f29bdc2895,knowledge misalignment,case1,"During file segmentation, if the number of characters under a level 3 heading (###) is less than 29, the level 3 heading will be lost, and its content will be directly included in the next segment.",IC,packages/service/worker/file/extension/docx.ts,"1.Upload a .docx file (containing level 3 headings) to your knowledge base.
 2.In ""Data Processing,"" select ""Direct Segmentation"" and ""Automatic.""
 3.In the segmentation results, if a level 3 heading (###) has fewer than 29 characters, the heading is lost, and its content is directly merged into the next segment. If it has 29 or more characters, the issue doesn't occur."
-labring/FastGPT,https://github.com/labring/FastGPT/tree/05bf1b22653f8699b85098db3e86a7f29bdc2895,knowledge misalignment,case2,Need to optimize the segmentation of table files when importing files into knowledge bases,"IC,SL","packages/service/worker/file/extension/xlsx.ts,csv.ts,pdf.ts","1.Upload spreadsheet files to your knowledge base.
+labring/FastGPT,https://github.com/labring/FastGPT/tree/05bf1b22653f8699b85098db3e86a7f29bdc2895,,case2,Need to optimize the segmentation of table files when importing files into knowledge bases,"IC,SL","packages/service/worker/file/extension/xlsx.ts,csv.ts,pdf.ts","1.Upload spreadsheet files to your knowledge base.
 2.Select ""Direct Segmentation.""
 3.Review the segmentation results and observe that the segmentation is done directly by word count. For example, when chunking an EXCEL spreadsheet file, the text is truncated directly by word count, resulting in information from the same row being located in different chunks."
-labring/FastGPT,https://github.com/labring/FastGPT/tree/05bf1b22653f8699b85098db3e86a7f29bdc2895,imprecise knowledge retrieval,case1,"In ""knowledge base search test"", for Q&A based on Excel spreadsheets, if the Excel file is large, the answers may be inaccurate.",IC,"packages/service/core/dataset/search/controller.ts
+labring/FastGPT,https://github.com/labring/FastGPT/tree/05bf1b22653f8699b85098db3e86a7f29bdc2895,Imprecise knowledge retrieval,case1,"In ""knowledge base search test"", for Q&A based on Excel spreadsheets, if the Excel file is large, the answers may be inaccurate.",IC,"packages/service/core/dataset/search/controller.ts
 python/bdg-rerank/bdg-reranker-/app.py","1.Upload an xlsx file with around 10,000 rows to your knowledge base.
 2.In ""Search Test,"" ask questions related to the content of this file.
 3.In ""Knowledge Base Search Configuration,"" select different search modes to test the Q&A, but the test results are unsatisfactory, with inaccurate answers."
@@ -4145,7 +4138,7 @@ c121914yu/FastGPT,https://github.com/c121914yu/FastGPT/tree/2ae8d43216d4e6fb7391
 c121914yu/FastGPT,https://github.com/c121914yu/FastGPT/tree/2ae8d43216d4e6fb739143c3cc12285fed048596,,case2,Need to optimize the segmentation of table files when importing files into knowledge bases,"IC,SL","packages/service/worker/file/extension/xlsx.ts,csv.ts,pdf.ts","1.Upload spreadsheet files to your knowledge base.
 2.Select ""Direct Segmentation.""
 3.Review the segmentation results and observe that the segmentation is done directly by word count. For example, when chunking an EXCEL spreadsheet file, the text is truncated directly by word count, resulting in information from the same row being located in different chunks."
-c121914yu/FastGPT,https://github.com/c121914yu/FastGPT/tree/2ae8d43216d4e6fb739143c3cc12285fed048596,imprecise knowledge retrieval,case1,"In ""knowledge base search test"", for Q&A based on Excel spreadsheets, if the Excel file is large, the answers may be inaccurate.",IC,"packages/service/core/dataset/search/controller.ts
+c121914yu/FastGPT,https://github.com/c121914yu/FastGPT/tree/2ae8d43216d4e6fb739143c3cc12285fed048596,Imprecise knowledge retrieval,case1,"In ""knowledge base search test"", for Q&A based on Excel spreadsheets, if the Excel file is large, the answers may be inaccurate.",IC,"packages/service/core/dataset/search/controller.ts
 python/bdg-rerank/bdg-reranker-/app.py","1.Upload an xlsx file with around 10,000 rows to your knowledge base.
 2.In ""Search Test,"" ask questions related to the content of this file.
 3.In ""Knowledge Base Search Configuration,"" select different search modes to test the Q&A, but the test results are unsatisfactory, with inaccurate answers."
@@ -4254,7 +4247,7 @@ client/src/service/utils/chat/index.ts
 client/src/pages/kb/components/SelectFileModal.tsx","1.Upload spreadsheet files to your knowledge base.
 2.Select ""Direct Segmentation.""
 3.Review the segmentation results and observe that the segmentation is done directly by word count. For example, when chunking an EXCEL spreadsheet file, the text is truncated directly by word count, resulting in information from the same row being located in different chunks."
-SaudM/GPT-LMU-APP,https://github.com/SaudM/GPT-LMU-APP/tree/882ad9818e49ca004959e17a0f7d2580ebfedb10,imprecise knowledge retrieval,case1,"In ""knowledge base search test"", for Q&A based on Excel spreadsheets, if the Excel file is large, the answers may be inaccurate.",IC,"client/src/pages/model/index.tsx
+SaudM/GPT-LMU-APP,https://github.com/SaudM/GPT-LMU-APP/tree/882ad9818e49ca004959e17a0f7d2580ebfedb10,Imprecise knowledge retrieval,case1,"In ""knowledge base search test"", for Q&A based on Excel spreadsheets, if the Excel file is large, the answers may be inaccurate.",IC,"client/src/pages/model/index.tsx
 client/src/api/model.ts
 client/src/pages/model/components/ModelList.tsx","1.Upload an xlsx file with around 10,000 rows to your knowledge base.
 2.In ""Search Test,"" ask questions related to the content of this file.
@@ -4350,7 +4343,7 @@ Abonia1/Context-Based-LLMChatbot,https://github.com/Abonia1/Context-Based-LLMCha
 Abonia1/Context-Based-LLMChatbot,https://github.com/Abonia1/Context-Based-LLMChatbot/tree/f21f7e157157d235e0b9ddd2fc997a7d33096da1,,case2,Need to optimize the segmentation of table files when importing files into knowledge bases,"IC,SL",chat.py,"1.Upload spreadsheet files to your knowledge base.
 2.Select ""Direct Segmentation.""
 3.Review the segmentation results and observe that the segmentation is done directly by word count. For example, when chunking an EXCEL spreadsheet file, the text is truncated directly by word count, resulting in information from the same row being located in different chunks."
-Abonia1/Context-Based-LLMChatbot,https://github.com/Abonia1/Context-Based-LLMChatbot/tree/f21f7e157157d235e0b9ddd2fc997a7d33096da1,imprecise knowledge retrieval,case1,"In ""knowledge base search test"", for Q&A based on Excel spreadsheets, if the Excel file is large, the answers may be inaccurate.",IC,"chat.py
+Abonia1/Context-Based-LLMChatbot,https://github.com/Abonia1/Context-Based-LLMChatbot/tree/f21f7e157157d235e0b9ddd2fc997a7d33096da1,Imprecise knowledge retrieval,case1,"In ""knowledge base search test"", for Q&A based on Excel spreadsheets, if the Excel file is large, the answers may be inaccurate.",IC,"chat.py
 app.py","1.Upload an xlsx file with around 10,000 rows to your knowledge base.
 2.In ""Search Test,"" ask questions related to the content of this file.
 3.In ""Knowledge Base Search Configuration,"" select different search modes to test the Q&A, but the test results are unsatisfactory, with inaccurate answers."
@@ -4391,7 +4384,7 @@ src/utils.py","1. Set up h2ogpt: Ensure the project is correctly set up in your 
 4. Open the query interface in the web UI.
 5. Enter a query specifically asking about the content of a table in the uploaded document.
 6. Observe if any bugs are triggered when the model handles the question about the table's content, such as errors or incorrect responses."
-h2oai/h2ogpt,https://github.com/h2oai/h2ogpt/tree/15f3a2d564541020f78cfc83bc90722dcda8a960,imprecise knowledge retrieval,/,Mismatch Between Query Response and Source Document Ordering in a Captive Network with Multiple ,ST,"openai_server/server.py
+h2oai/h2ogpt,https://github.com/h2oai/h2ogpt/tree/15f3a2d564541020f78cfc83bc90722dcda8a960,Imprecise knowledge retrieval,/,Mismatch Between Query Response and Source Document Ordering in a Captive Network with Multiple ,ST,"openai_server/server.py
 src/utils.py","1. Set up h2ogpt: Ensure the project is correctly set up in your local environment.
 2. Configure the system to connect to a captive network with multiple source documents.
 3. Run h2ogpt: Execute `python app.py` or the relevant command to start the server.
@@ -4399,7 +4392,7 @@ src/utils.py","1. Set up h2ogpt: Ensure the project is correctly set up in your 
 5. Open the query interface in the web UI.
 6. Enter a query related to the content of the source documents.
 7. Observe if there is a mismatch between the query response and the ordering of the information in the source documents.(for example, ""TypeError: 'NoneType' object is not iterable"")"
-h2oai/h2ogpt,https://github.com/h2oai/h2ogpt/tree/15f3a2d564541020f78cfc83bc90722dcda8a960,unnecesssary LLM output,/,Sources have redundant information.,"IC,UI","src/output_parser.py
+h2oai/h2ogpt,https://github.com/h2oai/h2ogpt/tree/15f3a2d564541020f78cfc83bc90722dcda8a960,unnecessary LLM output,/,Sources have redundant information.,"IC,UI","src/output_parser.py
 src/sagemaker.py","1. Set up h2ogpt: Ensure the project is correctly set up in your local environment.
 2. Upload multiple source documents that contain redundant information.
 3. Run h2ogpt: Execute `python app.py` or the relevant command to start the server.
@@ -4529,7 +4522,7 @@ local_agi_zh.py","1. Set up LocalAGI according to the README.md of this project:
    OBJECTIVE=Implement a Python code to accept input and print it in the terminal
    INITIAL_TASK=Build a task list
 3. And then LocalAGI starts creating and completing tasks in an infinite loop, never stopping."
-EmbraceAGI/LocalAGI,https://github.com/EmbraceAGI/LocalAGI/tree/f2fd7824ee270b8d45b336366ec885a14b809b8b,imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL","local_agi.py
+EmbraceAGI/LocalAGI,https://github.com/EmbraceAGI/LocalAGI/tree/f2fd7824ee270b8d45b336366ec885a14b809b8b,Imprecise knowledge retrieval,/,"There is an issue with how the vector database is queried. The execution_agent function currently uses the objective parameter to query similar documents. The query needs use the task parameter instead, as this would more effectively leverage existing solutions relevant to the specific task being addressed.","IC,SL","local_agi.py
 local_agi_mini.py","(steps to use the script:babyagi.py)
 1.Clone the repository via git clone https://github.com/yoheinakajima/babyagi.git and cd into the cloned repository.
 2.Install the required packages: pip install -r requirements.txt
@@ -4540,7 +4533,7 @@ local_agi_mini.py","(steps to use the script:babyagi.py)
 7.(Optional) Set the objective of the task management system in the OBJECTIVE variable.
 8.(Optional) Set the first task of the system in the INITIAL_TASK variable.
 9.Run the script: python babyagi.py"
-EmbraceAGI/LocalAGI,https://github.com/EmbraceAGI/LocalAGI/tree/f2fd7824ee270b8d45b336366ec885a14b809b8b,unnecesssary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI","local_agi.py
+EmbraceAGI/LocalAGI,https://github.com/EmbraceAGI/LocalAGI/tree/f2fd7824ee270b8d45b336366ec885a14b809b8b,unnecessary LLM output,/,The task creation process generating too many unnecessary tasks,"IC,UI","local_agi.py
 local_agi_zh.py","1.Clone the Repository:
    git clone https://github.com/yoheinakajima/babyagi.git
    cd babyagi
@@ -4666,7 +4659,7 @@ worker        | [2024-01-09 12:11:29,314: INFO/ForkPoolWorker-8] HTT
 backend-core  | INFO:     127.0.0.1:57230 - ""GET /healthz HTTP/1.1"" 200 OK
 worker        | 2024-01-09 12:11:41,963 [ERROR] packages.embeddings.vectors: Error creating vector for document timed out
 worker        | [2024-01-09 12:11:42,048: WARNING/ForkPoolWorker-8] Error processing file: 'NoneType' object is not iterable"
-StanGirard/quivr,https://github.com/StanGirard/quivr/tree/b6f38f7aff5f026eb46a071362c9362e057119df,imprecise knowledge retrieval,case1,Knowledge fetching is very slow,SL,"backend/models/databases/supabase/brains.py/delete_file_from_brain()
+StanGirard/quivr,https://github.com/StanGirard/quivr/tree/b6f38f7aff5f026eb46a071362c9362e057119df,Imprecise knowledge retrieval,case1,Knowledge fetching is very slow,SL,"backend/models/databases/supabase/brains.py/delete_file_from_brain()
 backend/routes/knowledge_routes.py","1. Use Quivr online or deploy locally following instructions on https://github.com/QuivrHQ/quivr/README.md
 2. Create a brain, upload multiple files to its knowledge. Ask Quivr questions about the documents you uploaded.
 3. Check if it takes too long to index files."
@@ -4708,7 +4701,7 @@ mckaywrigley/chatbot-ui,https://github.com/mckaywrigley/chatbot-ui/tree/f4ec4df7
 chat-messages.tsx ","1.Set up Chatbot UI: Ensure the Chatbot UI project is correctly set up in your local environment.
 2.Engage in a Conversation: Start a chat session and continue it for several interactions.
 3.Observe Context Freezing: Notice that after a few exchanges, the dialogue context freezes, and responses to new queries remain the same."
-mckaywrigley/chatbot-ui,https://github.com/mckaywrigley/chatbot-ui/tree/f4ec4df77f650fa650535c6b934d4a1775cf491a,unnecesssary LLM output,/,When the assistant has no picture it shows a broken image on the chat,IC,components/chat/chat-input.tsx,"1.Set up Chatbot UI: Ensure the Chatbot UI project is correctly set up in your local environment.
+mckaywrigley/chatbot-ui,https://github.com/mckaywrigley/chatbot-ui/tree/f4ec4df77f650fa650535c6b934d4a1775cf491a,unnecessary LLM output,/,When the assistant has no picture it shows a broken image on the chat,IC,components/chat/chat-input.tsx,"1.Set up Chatbot UI: Ensure the Chatbot UI project is correctly set up in your local environment.
 2.Remove Assistant's Picture: Configure the assistant to have no picture.
 3.Initiate a Chat: Start a chat session where the assistant's message is displayed.
 4.Observe the Broken Image: Notice that instead of a placeholder, a broken image icon appears."
@@ -4768,7 +4761,7 @@ agent/agentUtil.ts
 pages/api/home/home.tsx","1.Start chatting.
 2.Type a new prompt while the chatbot is generating an answer to a previous one.
 3.When the previous answer finishes to generate, the new prompt in the bar disappears and the chat bar refreshes. You will lose the contents that you have typed so far and need to start the process again."
-dotneet/smart-chatbot-ui,https://github.com/dotneet/smart-chatbot-ui/tree/6a07b944b73ca53996a1a06cdf65ab19ed2a19ab,unnecesssary LLM output,/,When the assistant has no picture it shows a broken image on the chat,IC,"types/llmUsage.ts
+dotneet/smart-chatbot-ui,https://github.com/dotneet/smart-chatbot-ui/tree/6a07b944b73ca53996a1a06cdf65ab19ed2a19ab,unnecessary LLM output,/,When the assistant has no picture it shows a broken image on the chat,IC,"types/llmUsage.ts
 agent/agent.ts
 utils/server/storage.ts","1.Set up Chatbot UI: Ensure the Chatbot UI project is correctly set up in your local environment.
 2.Remove Assistant's Picture: Configure the assistant to have no picture.
@@ -5036,7 +5029,7 @@ imartinez/privateGPT,https://github.com/imartinez/privateGPT/tree/2f3aab9cfdc139
 3. Use the GUI: Open the web UI and upload a document.
 4. Ask a Question: Enter a question like ""How to increase the output length?""
 5. Observe the Response: Note that the response length varies and there is no fixed length or parameter to control the output length."
-imartinez/privateGPT,https://github.com/imartinez/privateGPT/tree/2f3aab9cfdc139f399387dbb90300d5a8bf8d2f1,imprecise knowledge retrieval,/,ingest does not complete,"IC,SL",private_gpt/server/chunks/chunks_router.py,"1. Set up PrivateGPT: Ensure the project is correctly configured in your local environment.
+imartinez/privateGPT,https://github.com/imartinez/privateGPT/tree/2f3aab9cfdc139f399387dbb90300d5a8bf8d2f1,Imprecise knowledge retrieval,/,ingest does not complete,"IC,SL",private_gpt/server/chunks/chunks_router.py,"1. Set up PrivateGPT: Ensure the project is correctly configured in your local environment.
 2. Start the PrivateGPT server: Execute `python privateGPT.py`.
 3. Open the GUI: Access the web UI.
 4. Attempt to Upload a File: Try uploading a file with a size greater than 50MB.
@@ -5160,7 +5153,7 @@ privateGPT.py","1. Set up PrivateGPT: Ensure the project is correctly set up in 
 3. Use the GUI: Open the web UI and upload a document.
 4. Ask a Question: Enter a question like ""How to increase the output length?""
 5. Observe the Response: Note that the response length varies and there is no fixed length or parameter to control the output length."
-menloparklab/privateGPT-app,https://github.com/menloparklab/privateGPT-app/tree/028c81038dec2f923477812f7c7f7d48706fa7a9,imprecise knowledge retrieval,/,ingest does not complete,"IC,SL","streamlit_app.py
+menloparklab/privateGPT-app,https://github.com/menloparklab/privateGPT-app/tree/028c81038dec2f923477812f7c7f7d48706fa7a9,Imprecise knowledge retrieval,/,ingest does not complete,"IC,SL","streamlit_app.py
 app.py
 privateGPT.py","1. Set up PrivateGPT: Ensure the project is correctly configured in your local environment.
 2. Start the PrivateGPT server: Execute `python privateGPT.py`.
@@ -5294,7 +5287,7 @@ ingest.py","1. Set up PrivateGPT: Ensure the project is correctly set up in your
 3. Use the GUI: Open the web UI and upload a document.
 4. Ask a Question: Enter a question like ""How to increase the output length?""
 5. Observe the Response: Note that the response length varies and there is no fixed length or parameter to control the output length."
-AgentJ-WR/Private-GPT-Flask,https://github.com/AgentJ-WR/Private-GPT-Flask/tree/328bbc320a6dacc1a120cfcaf9c88e0fd001b381,imprecise knowledge retrieval,/,ingest does not complete,"IC,SL","privateGPT.py
+AgentJ-WR/Private-GPT-Flask,https://github.com/AgentJ-WR/Private-GPT-Flask/tree/328bbc320a6dacc1a120cfcaf9c88e0fd001b381,Imprecise knowledge retrieval,/,ingest does not complete,"IC,SL","privateGPT.py
 ingest.py","1. Set up PrivateGPT: Ensure the project is correctly configured in your local environment.
 2. Start the PrivateGPT server: Execute `python privateGPT.py`.
 3. Open the GUI: Access the web UI.
@@ -5423,7 +5416,7 @@ ingest.py","1. Set up PrivateGPT: Ensure the project is correctly set up in your
 3. Use the GUI: Open the web UI and upload a document.
 4. Ask a Question: Enter a question like ""How to increase the output length?""
 5. Observe the Response: Note that the response length varies and there is no fixed length or parameter to control the output length."
-REFRIED-BoolEANS/privatgpt-gui,https://github.com/REFRIED-BoolEANS/privatgpt-gui/tree/840675927b1ace596dcc2c8ed0f6f483805e33fe,imprecise knowledge retrieval,/,ingest does not complete,"IC,SL","privateGPT.py
+REFRIED-BoolEANS/privatgpt-gui,https://github.com/REFRIED-BoolEANS/privatgpt-gui/tree/840675927b1ace596dcc2c8ed0f6f483805e33fe,Imprecise knowledge retrieval,/,ingest does not complete,"IC,SL","privateGPT.py
 ingest.py","1. Set up PrivateGPT: Ensure the project is correctly configured in your local environment.
 2. Start the PrivateGPT server: Execute `python privateGPT.py`.
 3. Open the GUI: Access the web UI.
@@ -5484,7 +5477,7 @@ packages/code-review-gpt/src/config.ts","Here's your request translated into Eng
 2. Upload a text document in the application's chat UI. Wait for multiple rounds of processing, and we will receive the following error:
 ‘...
 Regarding completion_chunk"
-mattzcarey/code-review-gpt,https://github.com/mattzcarey/code-review-gpt/tree/87bce4d443c869eb3da09e5a2c11b1a79c5e5d6a,unnecesssary LLM output,/,Extremely polite and sometimes verbose output,"IC,UI","packages/code-review-gpt/src/review/llm/askAI.ts
+mattzcarey/code-review-gpt,https://github.com/mattzcarey/code-review-gpt/tree/87bce4d443c869eb3da09e5a2c11b1a79c5e5d6a,unnecessary LLM output,/,Extremely polite and sometimes verbose output,"IC,UI","packages/code-review-gpt/src/review/llm/askAI.ts
 packages/code-review-gpt/src/review/llm/PriorityQueue.ts","1. Set up Code Review GPT: Ensure the project is correctly set up in your local environment.
 2. Run Code Review GPT: Execute `python code_review_gpt.py` or the relevant command to start the server.
 3. Open the chat interface or input field.
@@ -5500,7 +5493,7 @@ chenhunghan/code-review-private-ai,https://github.com/chenhunghan/code-review-pr
 2. Upload a text document in the application's chat UI. Wait for multiple rounds of processing, and we will receive the following error:
 ‘...
 Regarding completion_chunk"
-chenhunghan/code-review-private-ai,https://github.com/chenhunghan/code-review-private-ai/tree/17f00ec43ba35f3914fea322ad84f4b1a888500f,unnecesssary LLM output,/,Extremely polite and sometimes verbose output,"IC,UI","utils/build.js
+chenhunghan/code-review-private-ai,https://github.com/chenhunghan/code-review-private-ai/tree/17f00ec43ba35f3914fea322ad84f4b1a888500f,unnecessary LLM output,/,Extremely polite and sometimes verbose output,"IC,UI","utils/build.js
 src/review/llm/AIModel.ts
 src/review/index.ts","1. Set up Code Review GPT: Ensure the project is correctly set up in your local environment.
 2. Run Code Review GPT: Execute `python code_review_gpt.py` or the relevant command to start the server.
@@ -5872,7 +5865,7 @@ marella/chatdocs,https://github.com/marella/chatdocs/tree/ff0f962972ba65f0bccbf2
 4. Upload the large Parquet file using the web UI.
 5. Observe if an error occurs when handling the large Parquet file.
 6. Check if there is a function or option for splitting the Parquet file to avoid errors."
-marella/chatdocs,https://github.com/marella/chatdocs/tree/ff0f962972ba65f0bccbf2e81875a95bae7473b5,imprecise knowledge retrieval,/,"Asking a question gives ""Index not found, please create an instance before querying""",ST,"/Lib/site-packages/langchain/retrievers/merger_retriever.py
+marella/chatdocs,https://github.com/marella/chatdocs/tree/ff0f962972ba65f0bccbf2e81875a95bae7473b5,Imprecise knowledge retrieval,/,"Asking a question gives ""Index not found, please create an instance before querying""",ST,"/Lib/site-packages/langchain/retrievers/merger_retriever.py
 -/Lib/site-packages/langchain/chains/qa_with_sources/retrieval.py","1. Set up ChatDocs: Ensure the project is correctly set up in your local environment.
 2. Upload a document for querying.
 3. Run ChatDocs: Execute `python chatdocs.py` or the relevant command to start the server.
@@ -5926,7 +5919,7 @@ chatdocs/add.py","1. Set up ChatDocs: Ensure the project is correctly set up in 
 4. Upload the large Parquet file using the web UI.
 5. Observe if an error occurs when handling the large Parquet file.
 6. Check if there is a function or option for splitting the Parquet file to avoid errors."
-ranfysvalle02/chatdocs-mdb,https://github.com/ranfysvalle02/chatdocs-mdb/tree/6322d0ea03d2a3a14fbfaa7ca9f12104e733a72f,imprecise knowledge retrieval,/,"Asking a question gives ""Index not found, please create an instance before querying""",ST,"chatdocs/embeddings.py
+ranfysvalle02/chatdocs-mdb,https://github.com/ranfysvalle02/chatdocs-mdb/tree/6322d0ea03d2a3a14fbfaa7ca9f12104e733a72f,Imprecise knowledge retrieval,/,"Asking a question gives ""Index not found, please create an instance before querying""",ST,"chatdocs/embeddings.py
 chatdocs/add.py","1. Set up ChatDocs: Ensure the project is correctly set up in your local environment.
 2. Upload a document for querying.
 3. Run ChatDocs: Execute `python chatdocs.py` or the relevant command to start the server.
@@ -5996,7 +5989,7 @@ chatdocs/vectorstores.py","1. Set up ChatDocs: Ensure the project is correctly s
 4. Upload the large Parquet file using the web UI.
 5. Observe if an error occurs when handling the large Parquet file.
 6. Check if there is a function or option for splitting the Parquet file to avoid errors."
-Vidminas/chatdocs-streamlit,https://github.com/Vidminas/chatdocs-streamlit/tree/cf4053a1b20116fb0d05e64778e3c4c28b902f2a,imprecise knowledge retrieval,/,"Asking a question gives ""Index not found, please create an instance before querying""",ST,"chatdocs/ui.py
+Vidminas/chatdocs-streamlit,https://github.com/Vidminas/chatdocs-streamlit/tree/cf4053a1b20116fb0d05e64778e3c4c28b902f2a,Imprecise knowledge retrieval,/,"Asking a question gives ""Index not found, please create an instance before querying""",ST,"chatdocs/ui.py
 chatdocs/chains.py","1. Set up ChatDocs: Ensure the project is correctly set up in your local environment.
 2. Upload a document for querying.
 3. Run ChatDocs: Execute `python chatdocs.py` or the relevant command to start the server.
@@ -6324,7 +6317,7 @@ collector/scripts/link.py","1. Set up Anything-LLM: Ensure the project is correc
 alejandro-ao/ask-multiple-pdfs,https://github.com/alejandro-ao/ask-multiple-pdfs/tree/362e85213a01d73772d5319fb9819e026ecbe8a7,Unclear context in prompt,/,The LLM's answers sometimes contradict the truth or the content of the uploaded file,IC,app.py,"1.In the the application, select a character to converse with.
 2.Ask the character vague or ambiguous questions/overly complex or contradictory Information
 like ""Explain what it is."" or ""If the sun were blue, what color would the moon be?"""
-alejandro-ao/ask-multiple-pdfs,https://github.com/alejandro-ao/ask-multiple-pdfs/tree/362e85213a01d73772d5319fb9819e026ecbe8a7,unnecesssary LLM output,/,The last sentence in the generated output is repeated multiple times. ,SL,app.py,"1. Set up Ask Multiple PDFs: Ensure the project is correctly set up in your local environment.
+alejandro-ao/ask-multiple-pdfs,https://github.com/alejandro-ao/ask-multiple-pdfs/tree/362e85213a01d73772d5319fb9819e026ecbe8a7,unnecessary LLM output,/,The last sentence in the generated output is repeated multiple times. ,SL,app.py,"1. Set up Ask Multiple PDFs: Ensure the project is correctly set up in your local environment.
 2. Upload multiple PDF documents for querying.
 3. Run the application: Execute `python app.py` or the relevant command to start the server.
 4. Open the query interface in the web UI.
@@ -6348,7 +6341,7 @@ alejandro-ao/ask-multiple-pdfs,https://github.com/alejandro-ao/ask-multiple-pdfs
 aigeek0x0/chat-with-multiple-pdfs-streamlit-langchain-faiss-openai,https://github.com/aigeek0x0/chat-with-multiple-pdfs-streamlit-langchain-faiss-openai/tree/3cc2b0ac1522d6a78a998759ea212052ddefb3b7,Unclear context in prompt,/,The LLM's answers sometimes contradict the truth or the content of the uploaded file,IC,app.py,"1.In the the application, select a character to converse with.
 2.Ask the character vague or ambiguous questions/overly complex or contradictory Information
 like ""Explain what it is."" or ""If the sun were blue, what color would the moon be?"""
-aigeek0x0/chat-with-multiple-pdfs-streamlit-langchain-faiss-openai,https://github.com/aigeek0x0/chat-with-multiple-pdfs-streamlit-langchain-faiss-openai/tree/3cc2b0ac1522d6a78a998759ea212052ddefb3b7,unnecesssary LLM output,/,The last sentence in the generated output is repeated multiple times. ,SL,app.py,"1. Set up Ask Multiple PDFs: Ensure the project is correctly set up in your local environment.
+aigeek0x0/chat-with-multiple-pdfs-streamlit-langchain-faiss-openai,https://github.com/aigeek0x0/chat-with-multiple-pdfs-streamlit-langchain-faiss-openai/tree/3cc2b0ac1522d6a78a998759ea212052ddefb3b7,unnecessary LLM output,/,The last sentence in the generated output is repeated multiple times. ,SL,app.py,"1. Set up Ask Multiple PDFs: Ensure the project is correctly set up in your local environment.
 2. Upload multiple PDF documents for querying.
 3. Run the application: Execute `python app.py` or the relevant command to start the server.
 4. Open the query interface in the web UI.
@@ -6428,7 +6421,7 @@ src/modules/chatbot.py","1. Set up Robby-chatbot: Ensure the project is correctl
 4. Open the query interface in the web UI.
 5. Enter a series of queries or a single lengthy query that is likely to exceed the maximum context length.
 6. Observe if an error message appears indicating that the maximum context length has been exceeded."
-yvann-hub/Robby-chatbot,https://github.com/yvann-hub/Robby-chatbot/tree/5beb6894c8ba0d0b67188ba2be568a2a22a00491,imprecise knowledge retrieval,/,when the embeded file size increases the query time also increases dramatically,SL,"tuto_chatbot_csv.py
+yvann-hub/Robby-chatbot,https://github.com/yvann-hub/Robby-chatbot/tree/5beb6894c8ba0d0b67188ba2be568a2a22a00491,Imprecise knowledge retrieval,/,when the embeded file size increases the query time also increases dramatically,SL,"tuto_chatbot_csv.py
 src/modules/embedder.py","1. Set up Robby-chatbot: Ensure the project is correctly set up in your local environment.
 2. Prepare a series of files of varying sizes to be used for embedding.
 3. Run the application: Execute `python app.py` or the relevant command to start the server.
@@ -6472,7 +6465,7 @@ gabacode/ChatBot-PDF,https://github.com/gabacode/ChatBot-PDF/tree/320476ac687db4
 4. Open the query interface in the web UI.
 5. Enter a series of queries or a single lengthy query that is likely to exceed the maximum context length.
 6. Observe if an error message appears indicating that the maximum context length has been exceeded."
-gabacode/ChatBot-PDF,https://github.com/gabacode/ChatBot-PDF/tree/320476ac687db4ea0e9051b4b25ef6904d3a014d,imprecise knowledge retrieval,/,when the embeded file size increases the query time also increases dramatically,SL,"modules/chatbot.py
+gabacode/ChatBot-PDF,https://github.com/gabacode/ChatBot-PDF/tree/320476ac687db4ea0e9051b4b25ef6904d3a014d,Imprecise knowledge retrieval,/,when the embeded file size increases the query time also increases dramatically,SL,"modules/chatbot.py
 modules/embedder.py","1. Set up: Ensure the project is correctly set up in your local environment.
 2. Prepare a series of files of varying sizes to be used for embedding.
 3. Run the application: Execute `python app.py` or the relevant command to start the server.
@@ -6518,7 +6511,7 @@ src/modules/sidebar.py","1. Set up: Ensure the project is correctly set up in yo
 4. Open the query interface in the web UI.
 5. Enter a series of queries or a single lengthy query that is likely to exceed the maximum context length.
 6. Observe if an error message appears indicating that the maximum context length has been exceeded."
-chinesewebman/doc-chatbot,https://github.com/chinesewebman/doc-chatbot/tree/d17caf9f0414bc7bc802774de1f13c5d746966fb,imprecise knowledge retrieval,/,when the embeded file size increases the query time also increases dramatically,SL,"src/modules/chatbot.py
+chinesewebman/doc-chatbot,https://github.com/chinesewebman/doc-chatbot/tree/d17caf9f0414bc7bc802774de1f13c5d746966fb,Imprecise knowledge retrieval,/,when the embeded file size increases the query time also increases dramatically,SL,"src/modules/chatbot.py
 src/modules/embedder.py","1. Set up: Ensure the project is correctly set up in your local environment.
 2. Prepare a series of files of varying sizes to be used for embedding.
 3. Run the application: Execute `python app.py` or the relevant command to start the server.
@@ -6573,7 +6566,7 @@ main.py","Here's your request translated into English:
 2. Upload a text document in the application's chat UI. Wait for multiple rounds of processing, and we will receive the following error:
 ‘...
 Regarding completion_chunk"
-codeacme17/examor,https://github.com/codeacme17/examor/tree/891ed727b711c6b59e3c6899f7fa08f0df773c30,imprecise knowledge retrieval,/,"After installation, there are no errors when importing the Markdown file, but the questions cannot be extracted. ",ST,"server/llm_services/langchain_llm.py
+codeacme17/examor,https://github.com/codeacme17/examor/tree/891ed727b711c6b59e3c6899f7fa08f0df773c30,Imprecise knowledge retrieval,/,"After installation, there are no errors when importing the Markdown file, but the questions cannot be extracted. ",ST,"server/llm_services/langchain_llm.py
 server/llm_services/pure_llm.py","1. Set up Examor: Ensure the project is correctly set up in your local environment.
 2. Install the application by following the provided installation instructions.
 3. Run the application: Execute `python app.py` or the relevant command to start the server.
