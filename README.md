@@ -8,6 +8,7 @@
 
 
 The artifact has been published as [a project on Github](https://github.com/SOFTWARE-2024/Hydrangea).
+Future updates for this repository will be available at [https://github.com/ShaoYuchen0112/Hydrangea](https://github.com/ShaoYuchen0112/Hydrangea).
 
 ## What is LLM-enabled software?
 
